@@ -5,7 +5,7 @@
 
 Este repositorio contiene el proyecto docente elaborado para la plaza de **Profesor Titular de Universidad** del área de conocimiento **Bioquímica y Biología Molecular** en la **Universidad Autónoma de Madrid**.
 
-El documento ha sido elaborado mediante [Quarto](https://quarto.org/) y LaTeX. Se comparten tanto los archivos fuente como el [PDF final](_book/PROYECTO-DOCENTE.pdf), con licencia *Creative Commons* [BY-NC-SA](license.md).
+El documento ha sido elaborado mediante [Quarto](https://quarto.org/) y LaTeX. Se comparten tanto los archivos fuente como el [PDF final](PROYECTO-DOCENTE.pdf), con licencia *Creative Commons* [BY-NC-SA](license.md).
 
 ## Descripción
 
@@ -19,7 +19,7 @@ La publicación de los archivos fuente tiene como finalidad facilitar la trazabi
 
 This repository contains the teaching statement prepared for the position of **Associate Professor / Profesor Titular de Universidad** in the area of **Biochemistry and Molecular Biology** at the **Universidad Autónoma de Madrid**.
 
-The document has been prepared using [Quarto](https://quarto.org/) and LaTeX. Both the source files and the [final PDF](_book/PROYECTO-DOCENTE.pdf) are shared under a _Creative Commons_ BY-NC-SA license.
+The document has been prepared using [Quarto](https://quarto.org/) and LaTeX. Both the source files and the [final PDF](PROYECTO-DOCENTE.pdf) are shared under a _Creative Commons_ BY-NC-SA license.
 
 ## Description
 
