@@ -1,0 +1,11 @@
+exclude:
+  - "*.qmd"
+  - "*.tex"
+  - "*.bib"
+  - "_quarto.yml"
+  - "contexto.qmd"
+  - "bibliografia.qmd"
+  - "index.qmd"
+  - "proyecto_docente.qmd"
+  - "tex/"
+  - "styles/"
