@@ -1,0 +1,10 @@
+---
+format:
+  pdf:
+    title-page: false
+---
+
+# Referencias bibliográficas
+
+::: {#refs}
+:::

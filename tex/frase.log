@@ -1,0 +1,670 @@
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.5.1)  23 MAY 2026 18:39
+ restricted system commands enabled.
+**frase.tex
+(./frase.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-03-20>
+Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended collection.
+luaotfload | conf : Root cache directory is "C:/Users/MR.5052598/AppData/Roaming/TinyTeX/texmf-var/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-resolved path "c:/Users/MR.5052598/AppData/Roaming/TinyTeX/texmf-dist/tex/luatex/luaotfload/fontloader-2023-12-28.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.134
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "C:/Users/MR.5052598/AppData/Roaming/TinyTeX/texmf-var/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'.
+! Undefined control sequence.
+l.5 \newgeometry
+                {left=4.0cm,right=6.0cm,top=2.5cm,bottom=2.5cm}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 \newgeometry{l
+                  eft=4.0cm,right=6.0cm,top=2.5cm,bottom=2.5cm}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no f (U+0066) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no = (U+003D) in font nullfont!
+Missing character: There is no 4 (U+0034) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no = (U+003D) in font nullfont!
+Missing character: There is no 6 (U+0036) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no = (U+003D) in font nullfont!
+Missing character: There is no 2 (U+0032) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 5 (U+0035) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no b (U+0062) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no = (U+003D) in font nullfont!
+Missing character: There is no 2 (U+0032) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 5 (U+0035) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no f (U+0066) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no = (U+003D) in font nullfont!
+Missing character: There is no 4 (U+0034) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no = (U+003D) in font nullfont!
+Missing character: There is no 6 (U+0036) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no = (U+003D) in font nullfont!
+Missing character: There is no 2 (U+0032) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 5 (U+0035) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no b (U+0062) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no = (U+003D) in font nullfont!
+Missing character: There is no 2 (U+0032) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 5 (U+0035) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no f (U+0066) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no = (U+003D) in font nullfont!
+Missing character: There is no 4 (U+0034) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no = (U+003D) in font nullfont!
+Missing character: There is no 6 (U+0036) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no = (U+003D) in font nullfont!
+Missing character: There is no 2 (U+0032) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 5 (U+0035) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no b (U+0062) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no = (U+003D) in font nullfont!
+Missing character: There is no 2 (U+0032) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 5 (U+0035) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 5--6
+[]left=4.0cm,right=6.0cm,top=2.5cm,bottom=2.5cm 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 \begin{flushleft}
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 13--13
+[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+luaotfload | db : Font names database loaded from C:/Users/MR.5052598/AppData/Roaming/TinyTeX/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 \begin{flushleft}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1
+
+
+Missing character: There is no l (U+006C) in font nullfont!
+Missing character: There is no e (U+0065) in font nullfont!
+Missing character: There is no f (U+0066) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no = (U+003D) in font nullfont!
+Missing character: There is no 4 (U+0034) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no r (U+0072) in font nullfont!
+Missing character: There is no i (U+0069) in font nullfont!
+Missing character: There is no g (U+0067) in font nullfont!
+Missing character: There is no h (U+0068) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no = (U+003D) in font nullfont!
+Missing character: There is no 6 (U+0036) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 0 (U+0030) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no p (U+0070) in font nullfont!
+Missing character: There is no = (U+003D) in font nullfont!
+Missing character: There is no 2 (U+0032) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 5 (U+0035) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no , (U+002C) in font nullfont!
+Missing character: There is no b (U+0062) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no t (U+0074) in font nullfont!
+Missing character: There is no o (U+006F) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no = (U+003D) in font nullfont!
+Missing character: There is no 2 (U+0032) in font nullfont!
+Missing character: There is no . (U+002E) in font nullfont!
+Missing character: There is no 5 (U+0035) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+]
+Overfull \hbox (32.39pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 “Bioin- 
+ []
+
+
+Overfull \hbox (15.98001pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 for- 
+ []
+
+
+Overfull \hbox (20.19pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 mat- 
+ []
+
+
+Overfull \hbox (11.76001pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 ics 
+ []
+
+
+Overfull \hbox (15.84pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 and 
+ []
+
+
+Overfull \hbox (11.25002pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 bi- 
+ []
+
+
+Overfull \hbox (11.25pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 ol- 
+ []
+
+
+Overfull \hbox (14.06001pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 ogy 
+ []
+
+
+Overfull \hbox (20.96pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 com- 
+ []
+
+
+Overfull \hbox (17.12999pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 mu- 
+ []
+
+
+Overfull \hbox (12.27pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 ni- 
+ []
+
+
+Overfull \hbox (15.08002pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 ties 
+ []
+
+
+Overfull \hbox (27.34999pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 should 
+ []
+
+
+Overfull \hbox (20.57pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 work 
+ []
+
+
+Overfull \hbox (12.01001pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 to- 
+ []
+
+
+Overfull \hbox (26.45003pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 gether 
+ []
+
+
+Overfull \hbox (9.2pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 so 
+ []
+
+
+Overfull \hbox (16.86002pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 that 
+ []
+
+
+Overfull \hbox (12.78001pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 ed- 
+ []
+
+
+Overfull \hbox (8.95pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 u- 
+ []
+
+
+Overfull \hbox (12.78001pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 ca- 
+ []
+
+
+Overfull \hbox (17.12001pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 tion 
+ []
+
+
+Overfull \hbox (8.18001pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 of 
+ []
+
+
+Overfull \hbox (11.25002pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 bi- 
+ []
+
+
+Overfull \hbox (11.25pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 ol- 
+ []
+
+
+Overfull \hbox (8.69pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 o- 
+ []
+
+
+Overfull \hbox (19.17001pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 gists 
+ []
+
+
+Overfull \hbox (8.69pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 in 
+ []
+
+
+Overfull \hbox (13.03001pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 the 
+ []
+
+
+Overfull \hbox (17.63pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 21st 
+ []
+
+
+Overfull \hbox (17.89001pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 cen- 
+ []
+
+
+Overfull \hbox (17.77pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 tury 
+ []
+
+
+Overfull \hbox (18.15pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 may 
+ []
+
+
+Overfull \hbox (12.27002pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 be- 
+ []
+
+
+Overfull \hbox (21.98001pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 come 
+ []
+
+
+Overfull \hbox (9.2pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 as 
+ []
+
+
+Overfull \hbox (12.78pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 so- 
+ []
+
+
+Overfull \hbox (20.96pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 phis- 
+ []
+
+
+Overfull \hbox (9.97002pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 ti- 
+ []
+
+
+Overfull \hbox (21.72003pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 cated 
+ []
+
+
+Overfull \hbox (9.2pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 as 
+ []
+
+
+Overfull \hbox (13.03001pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 the 
+ []
+
+
+Overfull \hbox (20.96pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 com- 
+ []
+
+
+Overfull \hbox (14.06pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 pu- 
+ []
+
+
+Overfull \hbox (12.01001pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 ta- 
+ []
+
+
+Overfull \hbox (24.79001pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 tional 
+ []
+
+
+Overfull \hbox (12.78001pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 ed- 
+ []
+
+
+Overfull \hbox (8.95pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 u- 
+ []
+
+
+Overfull \hbox (12.78001pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 ca- 
+ []
+
+
+Overfull \hbox (17.12001pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 tion 
+ []
+
+
+Overfull \hbox (8.18001pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 of 
+ []
+
+
+Overfull \hbox (25.82pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 physi- 
+ []
+
+
+Overfull \hbox (19.17001pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 cists 
+ []
+
+
+Overfull \hbox (9.33pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 or 
+ []
+
+
+Overfull \hbox (53.46002pt too wide) in paragraph at lines 15--15
+\TU/lmr/m/it/10 economists.”  
+ []
+
+! Undefined control sequence.
+l.17 ... \& Ron Shamir (Science, 2009 - DOI: \href
+                                                  {https://doi.org/10.1126/s...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (23.47pt too wide) in paragraph at lines 17--18
+[]\TU/lmr/m/n/10 Pavel 
+ []
+
+
+Overfull \hbox (34.61pt too wide) in paragraph at lines 17--18
+\TU/lmr/m/n/10 Pevzner 
+ []
+
+
+Overfull \hbox (7.78pt too wide) in paragraph at lines 17--18
+\TU/lmr/m/n/10 & 
+ []
+
+
+Overfull \hbox (17.92pt too wide) in paragraph at lines 17--18
+\TU/lmr/m/n/10 Ron 
+ []
+
+
+Overfull \hbox (31.15pt too wide) in paragraph at lines 17--18
+\TU/lmr/m/n/10 Shamir 
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 17--18
+\TU/lmr/m/n/10 (Sci- 
+ []
+
+
+Overfull \hbox (21.66pt too wide) in paragraph at lines 17--18
+\TU/lmr/m/n/10 ence, 
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 17--18
+\TU/lmr/m/n/10 2009 
+ []
+
+
+Overfull \hbox (3.33pt too wide) in paragraph at lines 17--18
+\TU/lmr/m/n/10 - 
+ []
+
+
+Overfull \hbox (21.81pt too wide) in paragraph at lines 17--18
+\TU/lmr/m/n/10 DOI: 
+ []
+
+
+Overfull \hbox (122.65pt too wide) in paragraph at lines 17--18
+\TU/lmr/m/n/10 https://doi.org/10.1126/sci- 
+ []
+
+
+Overfull \hbox (108.93001pt too wide) in paragraph at lines 17--18
+\TU/lmr/m/n/10 ence.117387610.1126/sci- 
+ []
+
+
+Overfull \hbox (60.55pt too wide) in paragraph at lines 17--18
+\TU/lmr/m/n/10 ence.1173876)  
+ []
+
+! Undefined control sequence.
+l.21 \restoregeometry
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \clearpage
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[2{c:/Users/MR.5052598/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
+! Emergency stop.
+<*> frase.tex
+             
+*** (job aborted, no legal \end found)
+
+
+
+Here is how much of LuaTeX's memory you used:
+ 25 strings out of 475900
+ 100000,460012 words of node,token memory allocated 313 words of node memory still in use:
+   1 hlist, 1 dir, 3 kern, 1 glyph, 2 attribute, 40 glue_spec, 2 attribute_list, 1 write nodes
+   avail lists: 1:1,2:54,3:80,4:2,5:47,6:6,7:950,9:168,10:1,11:60
+ 22760 multiletter control sequences out of 65536+600000
+ 16 fonts using 855119 bytes
+ 25i,5n,24p,258b,188s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!

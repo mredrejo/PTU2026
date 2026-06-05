@@ -1,0 +1,58 @@
+project:
+  type: book
+
+book:
+  title: "PROYECTO DOCENTE"
+  author: "Modesto Redrejo Rodríguez"
+  date: "2026"
+  chapters:
+    - index.qmd
+    - contexto.qmd
+    - propuesta.qmd
+    - bibliografia.qmd
+
+language:
+  es:
+    table-title: "Tabla"
+    fig-title: "Figura"
+    tbl-title: "Tabla"
+    lof-title: "Lista de figuras"
+    lot-title: "Lista de tablas"
+
+format:
+  pdf:
+    classoption:
+      - twoside
+    keep-tex: true
+    template-partials:
+      - tex/before-body.tex
+    pdf-engine: lualatex
+    papersize: a4
+    toc: true
+    toc-title: "Contenido"
+    toc-depth: 3
+    number-sections: true
+    lof: true
+    lot: true
+    geometry:
+      - margin=2.5cm
+    fontsize: 11pt
+    linestretch: 1.15
+    include-in-header: tex/header.tex
+    colorlinks: true
+    linkcolor: "MidnightBlue"
+    urlcolor: "MidnightBlue"
+    citecolor: "MidnightBlue"
+#    cite-method: biblatex
+
+crossref:
+  lof-title: "Lista de figuras"
+  lot-title: "Lista de tablas"
+  tbl-title: "Tabla"
+  fig-title: "Figura"
+  tbl-prefix: "Tabla"
+  fig-prefix: "Figura"  
+  sec-prefix: "Sección"
+
+bibliography: references.bib
+

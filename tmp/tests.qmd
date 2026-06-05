@@ -1,0 +1,104 @@
+---
+format:
+  pdf:
+    title-page: false
+    mermaid:
+      format: png
+
+header-includes:
+  - \usepackage{longtable}
+  - \usepackage{multirow}
+  - \usepackage{array}
+  - \usepackage{booktabs}
+  - \usepackage[table]{xcolor}
+  - \usepackage{hyperref}
+  - \usepackage{fontawesome5}
+---
+
+
+
+
+
+```{=latex}
+\begin{longtable}{%
+  p{0.15\textwidth}
+  p{0.7\textwidth}
+  >{\centering\arraybackslash}p{0.09\textwidth}
+}
+\caption{Participación docente del Departamento de Bioquímica en estudios oficiales de grado, máster y doctorado de la UAM. Se marcan en negrita los títulos de Máster y Doctorado co-coordinados por profesores del Departamento}
+\label{tbl:docencia_bq} \\
+
+\hline
+\textbf{Nivel} & \textbf{Título} & \textbf{Enlace} \\
+\hline
+\endfirsthead
+
+\hline
+\textbf{Nivel} & \textbf{Título} & \textbf{Enlace} \\
+\hline
+\endhead
+
+\hline
+\multicolumn{3}{r}{\textit{Continúa en la página siguiente}} \\
+\endfoot
+
+\hline
+\endlastfoot
+
+\multirow{6}{0.20\textwidth}{\textbf{Estudios de grado}}
+& Grado en Bioquímica
+& \href{https://www.uam.es/uam/bioquimica}{\faIcon{link}} \\
+
+& Grado en Medicina
+& \href{https://www.uam.es/uam/medicina}{\faIcon{link}} \\
+
+& Grado en Enfermería
+& \href{https://www.uam.es/uam/enfermeria}{\faIcon{link}} \\
+
+& Grado en Nutrición Humana y Dietética
+& \href{https://www.uam.es/uam/nutricion}{\faIcon{link}} \\
+
+& Grado en Ingeniería Biomédica
+& \href{https://www.uam.es/uam/biomedica}{\faIcon{link}} \\
+
+& Doble Grado en Nutrición Humana y Dietética y Ciencia y Tecnología de los Alimentos
+& \href{https://www.uam.es/uam/alimentos}{\faIcon{link}} \\
+
+\hline
+
+\multirow{7}{0.20\textwidth}{\textbf{Másteres universitarios}}
+& \textbf{Máster Universitario en Bioinformática y Biología Computacional}
+& \href{https://www.uam.es/uam/master-universitario-bioinformatica-biologia-computacional}{\faIcon{link}} \\
+
+& Máster Universitario en Física de la Materia Condensada y de los Sistemas Biológicos
+& \href{https://www.uam.es/uam/master-universitario-fisica-materia-condensada-sistemas-biologicos}{\faIcon{link}} \\
+
+& Máster Universitario en Neurociencias y Neurotecnologia
+& \href{https://www.uam.es/uam/master-universitario-neurociencia-neurotecnologia}{\faIcon{link}} \\
+
+\cline{2-3}
+
+& \multicolumn{2}{p{0.75\textwidth}}{\textit{\textbf{Programa de Posgrado en Biociencias Moleculares}}} \\
+
+\cline{2-3}
+
+& \textbf{Máster Universitario en Biomoléculas y Dinámica Celular}
+& \href{https://www.uam.es/uam/master-universitario-biomoleculas-dinamica-celular}{\faIcon{link}} \\
+
+& \textbf{Máster Universitario en Biomedicina Molecular}
+& \href{https://www.uam.es/uam/master-universitario-biomedicina-molecular}{\faIcon{link}} \\
+
+& \textbf{Máster Universitario en Biotecnología}
+& \href{https://www.uam.es/uam/master-universitario-biotecnologia}{\faIcon{link}} \\
+
+\hline
+
+\multirow{2}{0.20\textwidth}{\textbf{Programas de doctorado}}
+& \textbf{Programa de Doctorado en Biociencias Moleculares}
+& \href{https://www.uam.es/EscuelaDoctorado/(es_ES)-Programa-Doctorado_Biociencias_Moleculares/1446850633618.htm?language=es_ES&nDept=3&pid=1446830844235&pidDept=1429099820165}{\faIcon{link}} \\
+
+& Programa de Doctorado en Neurociencias
+& \href{https://www.uam.es/EscuelaDoctorado/(es_ES)-Programa-Doctorado_Biociencias_Moleculares/1446850633618.htm?language=es_ES&nDept=3&pid=1446830844235&pidDept=1429099820165}{\faIcon{link}} \\
+
+\end{longtable}
+```

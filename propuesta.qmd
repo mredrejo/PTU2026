@@ -1,0 +1,52 @@
+---
+format:
+  pdf:
+    title-page: false
+    mermaid:
+      format: png
+bibliography: references.bib
+---
+
+# Propuesta de aprendizaje activo en bioinformática: Bioinformática Estructural
+
+## Modelos de enseñanza en la educación superior {#sec-ens}
+
+Los objetivos expresan los rasgos y capacidades generales de los profesionales que queremos formar. Se refieren, por lo tanto, a los estudiantes y expresan resultados previstos de aprendizaje. Las orientaciones para la construcción del EEES, sugieren que se formulen objetivos como logros de aprendizaje en términos de competencias. De esta forma, los planes de estudios implementados actualmente en la Universidad están basados en un sistema de aprendizaje basados en que el estudiante vaya adquiriendo gradualmente competencias concretas por lo que se orientan, fundamentalmente, a los resultados de aprendizaje. Las competencias educativas son la combinación integrada de conocimientos, habilidades y actitudes que se ponen en acción para un desempeño adecuado en un contexto dado. Según el proyecto Tuning Educational Structures in Europe [@sánchez2008], conocido como Proyecto Tuning, las competencias pueden definirse de esta forma:
+
+> “Las competencias representan una combinación dinámica de atributos, en relación con conocimientos, habilidades, actitudes y responsabilidades, que describen los resultados del aprendizaje de un programa educativo o el que los estudiantes son capaces de demostrar al final de un proceso formativo.”
+
+Su uso debe posibilitar un marco común de cualificación que permita el reconocimiento de los Títulos. Con las competencias se integran los tres pilares fundamentales que debe desarrollar la educación superior: “saber”, conocimientos teóricos de un campo académico; “saber hacer”, habilidades, aplicaciones prácticas y operativas del conocimiento y “saber estar”, valores como parte integrante de la forma de percibir a los otros y vivir en un contexto social. El proyecto Tuning considera que las competencias específicas, aquellas relacionadas con los conocimientos, son lo que debe “saber” el alumno al terminar el programa mientras que las competencias genéricas o transversales, son comunes a casi todas las profesiones y titulaciones universitarias y se refieren a lo que el alumno debe “saber hacer” al terminar el proceso de aprendizaje.
+
+### La lección magistral o expositiva
+
+La lección expositiva es quizás uno de los recursos más utilizados por los docentes y está comprobado que este tipo de técnica es muy útil en la formación universitaria y consiste en la exposición detallada de los contenidos de un tema de forma oral. Habitualmente la lección magistral se apoya en medios audivisuales para mejorar la comprensión o reforzar el mensaje. Se trata de un método que facilita la transmisión de información, especialmente en grupos grandes de alumnos. Sin embargo, en los últimos años su uso se ha cuestionado puesto que puede fomentar la pasividad o el aburrimiento, dificulta la atención sostenida y no siempre evalúa si el alumno ha comprendido o asimilado la información. De hecho, se considera como una de las causas del absentismo de los estudiantes. Especialmente en la sociedad actual, en la que el conocimiento está al alcance de un *clic*, es necesario que la asistencia a clase les aporte algo más que una colección de conocimientos. El EEES reconoce la necesidad de que el alumnado no solo adquiera conocimientos, sino que desarrolle competencias transversales como la resolución de problemas, el pensamiento crítico, la autonomía, la colaboración y la capacidad de aplicar lo aprendido a situaciones nuevas [@fernandezmadinabeitia2020].
+
+Existe por tanto una necesidad de evolución en la actividad los docentes en el aula, ya que al profesor universitario se le va a pedir que pueda ser capaz de realizar actividades y promover ambientes de trabajo que estén basados en la reflexión y en el diálogo. En este sentido existe toda una variedad de métodos docentes que buscan favorecer la comprensión integral del tema, por encima de la acumulación de conocimientos. Por ejemplo, la denominada Lección Magistral Interactiva [@iglesias-soilán2024, @morellmoll2004] busca estimular la comprensión y la aplicación de los conceptos mediante la interacción entre el docente y los estudiantes, y entre los propios estudiantes. Esta lección magistral interactiva comparte los tres mismos puntos que su análoga tradicional: una introducción, en la que se presenta un concepto; el desarrollo del contenido y una finalización o resumen. Entonces, ¿cuáles son las diferencias entre ambas versiones? En la introducción de la interactiva, se plantea un contexto real de ese concepto y no aislado de su entorno, al tiempo que deja a un lado la unidireccionalidad en su desarrollo, buscando constantemente las preguntas, dudas, reflexiones, objeciones... para, en su finalización o resumen, acoger las opiniones de todas las partes [@morellmoll2004]. Para esto, pueden utilizarse técnicas y herramientas como el método socrático moderno, el debate y los *roleplayings*, apostando por la continua interacción del profesor con sus estudiantes.
+
+### Metodologías de aprenzaje activo
+
+Bajo el término general de aprendizaje activo se agrupa un conjunto amplio de estrategias docentes que comparten una idea central: el aprendizaje mejora cuando el estudiante participa cognitivamente en la tarea, toma decisiones, contrasta ideas, aplica conceptos, resuelve problemas, argumenta, explica o colabora con otros. Esta concepción no se identifica con una técnica única ni con un formato cerrado, sino que puede concretarse en metodologías diversas, como el aprendizaje basado en problemas o proyectos, el aula invertida, el aprendizaje cooperativo, la gamificación, el learning by doing o el análisis de casos. En todas ellas, el elemento común no es necesariamente la herramienta empleada, sino el tipo de actividad intelectual que se promueve en el alumnado. En este sentido, el aprendizaje cooperativo ha sido descrito como una de las bases sobre las que se construyen muchas estrategias de aprendizaje activo, al estructurar la interdependencia positiva, la responsabilidad individual y la interacción promotora entre estudiantes [@johnson2018].
+
+La evidencia acumulada en disciplinas STEM respalda la utilidad de estas aproximaciones, mostrando un incremento del rendimiento en exámenes y además contribuyendo a reducir las brechas de rendimiento en asignaturas STEM, especialmente cuando se aplican con suficiente intensidad y se combinan con prácticas docentes inclusivas [@theobald2020].
+
+Sin embargo, la implantación de estas metodologías en la universidad no está exenta de dificultades. La persistencia de la lección magistral se relaciona con factores institucionales y culturales, como la presión por cubrir temarios extensos, la escasez de tiempo y recursos del profesorado, la sobrecarga docente o la falta de formación pedagógica específica. Así por ejemplo, algunos autores han descrito la “tiranía de la cobertura de contenidos” como una barrera importante para adoptar enfoques centrados en el aprendizaje, ya que el deseo de transmitir todo el programa puede desplazar actividades que favorecen una comprensión más profunda y transferible. De forma complementaria, diversos estudios sobre profesorado universitario señalan que las concepciones docentes centradas en la transmisión de contenidos y la identidad profesional más vinculada a la investigación que a la docencia pueden dificultar la transición hacia modelos más activos [@petersen2020, @pineda-alfonso2020].
+
+Es importante también aclarar que el aprendizaje activo no equivale necesariamente al uso de tecnologías de la información y la comunicación. Las TIC pueden facilitar determinadas formas de participación, evaluación formativa, análisis de datos, comunicación o trabajo colaborativo, pero no constituyen por sí mismas una metodología activa. Una clase puede incorporar plataformas virtuales, cuestionarios en línea, repositorios digitales o entornos computacionales y seguir respondiendo a un modelo esencialmente transmisivo si el estudiante permanece en una posición pasiva. Del mismo modo, es posible desarrollar aprendizaje activo sin tecnología digital, mediante discusión guiada, resolución de problemas en grupo, análisis de casos, debates estructurados o dinámicas cooperativas. Esta distinción es coherente con la idea de que el efecto educativo de la tecnología depende en gran medida del diseño pedagógico en el que se integra, más que de la mera presencia del recurso tecnológico [@valverde-berrocoso2022].
+
+Entre las disciplinas que se pueden encuadrar como STEM, la bioinformática es una disciplina situada en la intersección entre la biología, la informática, la estadística y el análisis de datos. Aprender bioinformática no consiste únicamente en memorizar algoritmos, formatos de archivo o bases de datos, sino en desarrollar la capacidad de formular preguntas biológicas, seleccionar herramientas adecuadas, interpretar resultados, detectar limitaciones metodológicas y reproducir análisis de forma rigurosa. Por ello, la enseñanza de la bioinformática se beneficia de metodologías que aproximen al alumnado a problemas reales o verosímiles: análisis de secuencias, anotación funcional, comparación de genomas, estudio de expresión génica, filogenia, metagenómica, modelado estructural o integración de datos ómicos. El aprendizaje basado en proyectos ofrece un marco especialmente adecuado para este tipo de docencia, porque permite aprender aplicando ideas a situaciones auténticas y próximas a la práctica científica real [@krajcik2005]. En esta línea hay bastantes estudios publicados que muestran, por ejemmplo, como la enseñanza de programación mediante seminarios basados en proyectos y elementos de aula invertida, guiando al alumnado a través de flujos de trabajo propios de la ciencia de datos, incluyendo gestión, transformación, visualización y comunicación de resultados [@meyer2021].
+
+### Evaluación del aprendizaje
+
+### La irrupción de la IA en la universidad
+
+## Propuesta de aprendizaje activo en la asignatura Bioinformática Estructural
+
+### Descripción de la asignatura en contexto del Máster en Bioinformática
+
+### Fuentes de información, materiales y gestión de la docencia
+
+### Planficación de actividades
+
+### Evaluación del método docente
+
+### Propuesta de mejora: introdución de un agente de IA como herramienta de análisis del aprendizaje para el desarrollo de proyectos

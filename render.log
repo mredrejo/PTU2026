@@ -1,0 +1,52 @@
+[1mpandoc [22m
+  to: latex
+  output-file: index.tex
+  standalone: true
+  toc: true
+  number-sections: true
+  top-level-division: chapter
+  pdf-engine: lualatex
+  variables:
+    graphics: true
+    tables: true
+  default-image-extension: pdf
+  toc-depth: 3
+  
+[1mmetadata[22m
+  crossref:
+    chapters: true
+    lof-title: Lista de figuras
+    lot-title: Lista de tablas
+  documentclass: scrreprt
+  papersize: a4
+  block-headings: true
+  classoption:
+    - twoside
+  toc-title: Contenido
+  lof: true
+  lot: true
+  geometry:
+    - margin=2.5cm
+  fontsize: 11pt
+  linestretch: 1.15
+  colorlinks: true
+  linkcolor: MidnightBlue
+  urlcolor: MidnightBlue
+  citecolor: MidnightBlue
+  title: PROYECTO DOCENTE
+  author: Modesto Redrejo Rodríguez
+  date: '2026'
+  
+[1m[34m
+Rendering PDF[39m[22m
+[1m[34mrunning lualatex - 1[39m[22m
+  This is LuaHBTeX, Version 1.24.0 (TeX Live 2026) 
+   restricted system commands enabled.
+  
+[1m[34mrunning lualatex - 2[39m[22m
+  This is LuaHBTeX, Version 1.24.0 (TeX Live 2026) 
+   restricted system commands enabled.
+  
+
+Output created: _book/PROYECTO-DOCENTE.pdf
+
