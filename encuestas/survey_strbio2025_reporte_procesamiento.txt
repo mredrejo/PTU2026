@@ -1,0 +1,57 @@
+Procesamiento de encuestas de Bioinformática Estructural 2024-2025
+
+Total de páginas/encuestas procesadas: 27
+Encuestas conservadas en el CSV final: 27
+Duplicados exactos detectados: 0
+
+Notas de limpieza/OCR:
+- Se han anonimizado todas las encuestas; el CSV final usa identificadores Encuesta_XX.
+- Los comentarios de texto libre NO se incluyen en las tablas CSV, solo en este informe.
+- Algunos valores parecen ambiguos por OCR/manuscrito (por ejemplo 2-3, 3-4, 4-5, 2-3 en background, o celdas sin respuesta). Se han conservado tal como aparecen o se han dejado en blanco cuando no eran inferibles con seguridad.
+
+Comentarios de texto libre (anonimizados):
+
+Encuesta_01 (página 1)
+En mi opinión hay demasiadas prácticas para entregar. Creo que se podrán condensar en una única,
+similar a la última que hicimos (CASP), enfocándola de diferentes formas según interese a cada
+persona. La asignatura me ha parecido muy interesante, pero me ha faltado tiempo para profundizar
+por mi cuenta en las partes que me iban llamando más la atención. Me habría gustado tener más
+profundidad en la parte teórica.
+
+Encuesta_03 (página 3)
+• QUICK OUT RRBS, PCALG & SEDAN & MAKE THEIR TIME STRBIO. • FOCUS MORE ON PROGRAMATIC & COMMAND LINE
+WORK. • PLEASE ALLOW TO RECORD AUDIO IN CLASSES FOR TRANSCRIPTION - DISABILITY.
+
+Encuesta_10 (página 10)
+The hands-on working time was enough, but I would make it more interactive/guided, meaning: I would
+do it together with us, to explore things for the first time all together. I think going more slowly
+through the theory part and particularly highlighting the most important basis of the subject may
+make it easier to progress on the practicals and integrate knowledge.
+
+Encuesta_13 (página 13)
+Creo que es necesario disminuir la carga de trabajo de esta asignatura o aumentar el número de
+créditos a 6; en mi opinión la carga de trabajo es enorme para 3 créditos (entrega de prácticas
+todas las semanas, corregir a los compañeros, entrega final, examen).
+
+Encuesta_18 (página 18)
+En general, creo que con lo que más se aprende son las prácticas que implican buscar y darle vueltas
+a las cosas. Se hacen complicadas porque al final tampoco tenemos tanto conocimiento en la parte
+“química” y el tiempo de la asignatura se queda corto para asimilarlo todo. El contenido está muy
+bien y es útil, pero quizás la evaluación del examen se podría centrar solo en lo más clave para que
+los conceptos importantes sean los que se queden y no el “batiburrillo” de tanta información.
+
+Encuesta_21 (página 21)
+El examen quizá sobra un poco teniendo en cuenta todas las prácticas que se hacen y que la materia
+es de 3 créditos.
+
+Encuesta_22 (página 22)
+Considero que es una asignatura bastante interesante, pero, como ha comentado varios compañeros, la
+carga de trabajo no se corresponde con el número de créditos de la asignatura. Creo que la parte más
+importante y que más nos ha aportado han sido los trabajos y la posibilidad de, de manera guiada,
+resolver problemas más o menos verosímiles. No sé qué tal saldría, pero personalmente prepararía un
+curso más interactivo con pequeños ejercicios repartidos a lo largo de las sesiones y manteniendo
+los trabajos, para así poder eliminar el examen final. Considero que, por la carga que supone tanto
+para el profesor como para el alumnado, no es un método óptimo de evaluación, sino que los trabajos
+y autoevaluaciones cumplen el objetivo mucho mejor. Entiendo que la ley marca ciertas cosas sobre
+los métodos de evaluación, pero pensando en una educación más personal y cercana, esta propuesta
+sería quizá mejor.

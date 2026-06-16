@@ -20,85 +20,93 @@ header-includes:
 
 
 ```{=latex}
-\begin{longtable}{%
-  p{0.15\textwidth}
-  p{0.7\textwidth}
-  >{\centering\arraybackslash}p{0.09\textwidth}
-}
-\caption{Participación docente del Departamento de Bioquímica en estudios oficiales de grado, máster y doctorado de la UAM. Se marcan en negrita los títulos de Máster y Doctorado co-coordinados por profesores del Departamento}
-\label{tbl:docencia_bq} \\
-
-\hline
-\textbf{Nivel} & \textbf{Título} & \textbf{Enlace} \\
+\begin{longtable}{p{0.18\textwidth} p{0.78\textwidth}}
+\caption{Descripción de la asignatura Bioinformática Estructural según la Memoria de Verificación del título. Se indican los códigos de conocimientos (CON), habilidades (HA) y competencias (CM) generales del máster (@tbl-MUBBC)}
+\label{tbl-strbio} \\
 \hline
 \endfirsthead
 
-\hline
-\textbf{Nivel} & \textbf{Título} & \textbf{Enlace} \\
-\hline
 \endhead
 
 \hline
-\multicolumn{3}{r}{\textit{Continúa en la página siguiente}} \\
+\multicolumn{2}{r}{\footnotesize\itshape Continúa en la página siguiente} \\
 \endfoot
 
 \hline
 \endlastfoot
 
-\multirow{6}{0.20\textwidth}{\textbf{Estudios de grado}}
-& Grado en Bioquímica
-& \href{https://www.uam.es/uam/bioquimica}{\faIcon{link}} \\
 
-& Grado en Medicina
-& \href{https://www.uam.es/uam/medicina}{\faIcon{link}} \\
-
-& Grado en Enfermería
-& \href{https://www.uam.es/uam/enfermeria}{\faIcon{link}} \\
-
-& Grado en Nutrición Humana y Dietética
-& \href{https://www.uam.es/uam/nutricion}{\faIcon{link}} \\
-
-& Grado en Ingeniería Biomédica
-& \href{https://www.uam.es/uam/biomedica}{\faIcon{link}} \\
-
-& Doble Grado en Nutrición Humana y Dietética y Ciencia y Tecnología de los Alimentos
-& \href{https://www.uam.es/uam/alimentos}{\faIcon{link}} \\
-
+\textbf{Denominación} & Bioinformática Estructural / Structural Bioinformatics \\
 \hline
 
-\multirow{7}{0.20\textwidth}{\textbf{Másteres universitarios}}
-& \textbf{Máster Universitario en Bioinformática y Biología Computacional}
-& \href{https://www.uam.es/uam/master-universitario-bioinformatica-biologia-computacional}{\faIcon{link}} \\
-
-& Máster Universitario en Física de la Materia Condensada y de los Sistemas Biológicos
-& \href{https://www.uam.es/uam/master-universitario-fisica-materia-condensada-sistemas-biologicos}{\faIcon{link}} \\
-
-& Máster Universitario en Neurociencias y Neurotecnologia
-& \href{https://www.uam.es/uam/master-universitario-neurociencia-neurotecnologia}{\faIcon{link}} \\
-
-\cline{2-3}
-
-& \multicolumn{2}{p{0.75\textwidth}}{\textit{\textbf{Programa de Posgrado en Biociencias Moleculares}}} \\
-
-\cline{2-3}
-
-& \textbf{Máster Universitario en Biomoléculas y Dinámica Celular}
-& \href{https://www.uam.es/uam/master-universitario-biomoleculas-dinamica-celular}{\faIcon{link}} \\
-
-& \textbf{Máster Universitario en Biomedicina Molecular}
-& \href{https://www.uam.es/uam/master-universitario-biomedicina-molecular}{\faIcon{link}} \\
-
-& \textbf{Máster Universitario en Biotecnología}
-& \href{https://www.uam.es/uam/master-universitario-biotecnologia}{\faIcon{link}} \\
-
+\textbf{Duración} & 3 ECTS \\
 \hline
 
-\multirow{2}{0.20\textwidth}{\textbf{Programas de doctorado}}
-& \textbf{Programa de Doctorado en Biociencias Moleculares}
-& \href{https://www.uam.es/EscuelaDoctorado/(es_ES)-Programa-Doctorado_Biociencias_Moleculares/1446850633618.htm?language=es_ES&nDept=3&pid=1446830844235&pidDept=1429099820165}{\faIcon{link}} \\
+\textbf{Tipología} & Obligatoria \\
+\hline
 
-& Programa de Doctorado en Neurociencias
-& \href{https://www.uam.es/EscuelaDoctorado/(es_ES)-Programa-Doctorado_Biociencias_Moleculares/1446850633618.htm?language=es_ES&nDept=3&pid=1446830844235&pidDept=1429099820165}{\faIcon{link}} \\
+\textbf{Organización temporal} & Semestre 2 \\
+\hline
+
+\textbf{Idioma} & Español / Inglés \\
+\hline
+
+\textbf{Conocimientos y contenidos} &
+\textbf{Contenidos generales del máster:}\newline
+\textbf{CON1}: Conocer las principales bases de datos de secuencias y estructuras biológicas, así como acceder, extraer y procesar información de ellas.\newline
+\textbf{CON2}: Conocer las bases teóricas y algorítmicas en bioinformática.\newline\newline
+\textbf{Contenidos específicos de la asignatura:}\newline
+1. Aplicaciones y métodos de bioinformática estructural en biología y biomedicina.\newline
+2. Aplicaciones para visualización de estructuras 3D de moléculas biológicas.\newline
+3. Métodos alternativos para la predicción de estructuras secundarias y terciarias de proteínas.\newline
+4. Acoplamiento (docking) computacional de proteínas y fármacos. \\
+\hline
+
+\textbf{Habilidades y destrezas} &
+\textbf{Habilidades generales del máster:}\newline
+\textbf{HA2}: Aplicar herramientas y métodos bioinformáticos y computacionales a la resolución de problemas y automatización de procesos en el ámbito de la investigación, tanto en biología como en biomedicina básica y traslacional.\newline
+\textbf{HA3}: Proyectar, calcular y diseñar métodos y productos bioinformáticos para el procesamiento de datos, incorporando conocimientos de biología, genética, matemáticas, computación, física y estadística.\newline
+\textbf{HA4}: Utilización de métodos computacionales para el procesado, almacenamiento y manejo de datos masivos, en particular aquellos generados mediante tecnologías ómicas de alto rendimiento en biología y biomedicina.\newline
+\textbf{HA6}: Identificar fuentes de información científica solventes para fundamentar el estado de la cuestión de un problema bioinformático y poder abordar su resolución.\newline
+\textbf{HA8}: Analizar y modelar secuencias biológicas a nivel tanto estructural como funcional.\newline\newline
+\textbf{Habilidades específicas de la asignatura:}\newline
+1. Identificar las principales bases de datos de estructuras biológicas, así como acceder y extraer información de ellas.\newline
+2. Comprender las bases teóricas, tanto conceptuales como algorítmicas, de la predicción y análisis de estructura de macromoléculas, e interpretar los resultados de estos programas. \\
+\hline
+
+\textbf{Competencias} &
+\textbf{Competencias generales del máster:}\newline
+\textbf{CM1}: Aplicar conocimientos para resolver problemas en nuevos contextos de bioinformática y continuar aprendiendo de forma autónoma nuevos conocimientos y desarrollos tecnológicos en bioinformática.\newline
+\textbf{CM2}: Capacidad de elaborar proyectos de investigación o aplicaciones en bioinformática, incorporando soluciones innovadoras, anticipando dificultades y valorando estrategias alternativas de contingencia, así como consideraciones en cuanto a responsabilidad social y aspectos éticos y legales.\newline
+\textbf{CM3}: Capacidad para buscar, procesar y extraer conclusiones de la información de bases de datos biológicas sobre secuencias, estructuras, transcriptomas, genomas, proteomas, etc.\newline
+\textbf{CM4}: Trabajar eficientemente en equipos multidisciplinares, con responsabilidad compartida en el diseño y comunicación de herramientas de trabajo y de acuerdo con las buenas prácticas científicas.\newline
+\textbf{CM5}: Desarrollar tareas en investigación, desarrollo, innovación y gestión en empresas y centros tecnológicos en bioinformática.\newline
+\textbf{CM6}: Buscar, analizar y gestionar información, interpretando y evaluando con razonamiento crítico en el ámbito de la bioinformática.\newline\newline
+\textbf{Competencias específicas de la asignatura:}\newline
+1. Capacidad de obtener y comprender diferentes resultados de modelado de estructuras de proteínas para resolver problemas biológicos. \\
+\hline
+
+\textbf{Actividades formativas} &
+\begin{tabular}[t]{@{}p{0.51\textwidth}c c@{}}
+\textbf{Actividad} & \textbf{Horas} & \textbf{Presenciales} \\
+Clases teórico-prácticas. & 10 & 10 \\
+Realización de proyectos o ejercicios prácticos por ordenador. & 18 & 9 \\
+Tutorías individuales o grupos reducidos. & 2 & 2 \\
+Estudio y trabajo autónomo de los estudiantes, individual o en grupo. & 45 & 5 \\
+\textbf{Total} & \textbf{75.0} & \textbf{26.0} \\
+\end{tabular} \\
+\hline
+
+\textbf{Sistemas de evaluación} &
+\begin{tabular}[t]{@{}p{0.51\textwidth}c c@{}}
+\textbf{Sistema de evaluación} & \textbf{Mínimo} & \textbf{Máximo} \\
+Examen teórico. & 25 & 75 \\
+Evaluación mediante plataformas informáticas (e-learning). & 0 & 50 \\
+Presentación escrita y/o oral de trabajos realizados. & 25 & 75 \\
+\textbf{Total} & \textbf{50.0} & \textbf{200.0} \\
+\end{tabular} \\
+\hline
 
 \end{longtable}
+
 ```

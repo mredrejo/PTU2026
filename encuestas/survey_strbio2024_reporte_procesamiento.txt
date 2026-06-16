@@ -1,0 +1,4 @@
+Total páginas procesadas: 28
+Páginas en blanco o sin respuestas útiles excluidas: 1 -> [27]
+Duplicados exactos detectados y excluidos: 0
+Encuestas conservadas en el CSV final: 27

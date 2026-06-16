@@ -1,0 +1,53 @@
+---
+title: "Implementation of an ELN in BqExAvI"
+author: "Modesto Redrejo Rodríguez"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+```{r}
+data <- read.csv2("raw_survey.csv", head=TRUE, sep=";")
+data2 <- read.csv2("raw_survey2.csv", head=TRUE, sep=";") #workload punctuation reversed
+
+library(reshape2)
+data.stack <- melt(data)
+data.stack <- na.exclude(data.stack)
+colnames(data.stack) <- c("Question","text","Student","answers")
+
+data.stack2 <- melt(data2)
+data.stack2 <- na.exclude(data.stack2)
+colnames(data.stack2) <- c("Question","text","Student","answers")
+
+# boxplot
+library(ggplot2)
+library(viridis)
+#stacked plot
+library(tigerstats)
+tablita <- rowPerc(xtabs(~Question+answers,data=data.stack2))
+tablita2 <- as.data.frame(tablita[,1:5])
+myColors <- c("darkgreen","green","orange","red","darkred","black")
+#bar plot 
+plot <- ggplot(data = tablita2, aes(x =Question , y = Freq, fill = answers))+
+  geom_bar(stat="identity", width = 0.7) +
+   scale_fill_brewer(palette="RdYlGn", labels=c("Totally disagree","Disagree","OK","Agree","Totally agree"), name="Answer") +
+  coord_flip() +
+  ylab("Percentage") +
+  xlab("Question") +
+  theme(axis.text=element_text(size=12),
+        axis.title=element_text(size=14,face="bold")) +
+ theme(plot.title = element_text(size = 20, face = "bold",hjust = 0.5)) + 
+  scale_x_discrete(labels=unique(data.stack$text)) + xlab("") +
+  theme_bw()
+ggsave("strbio.svg",plot,width=10, height=4)
+
+#violin plot
+plot <- ggplot(data.stack2, aes(x = data.stack2[,2], y = data.stack2[,4],
+               colour = data.stack2[,2])) + scale_y_continuous(limits=c(0.5,5.5), breaks=c(1,2,3,4,5),labels=c("Totally disagree","Disagree","OK","Agree","Totally agree")) +
+  geom_violin(aes(fill=data.stack2[,2],alpha=0.1),trim=FALSE,adjust=1.2,scale="width") +   stat_summary(fun = "mean",     geom = "point") + 
+ stat_summary(fun = "mean",     geom = "point", size=2, show.legend = TRUE) +  geom_jitter(width=0.1,height = 0.1, alpha=0.25) +theme_bw(base_size = 12) +
+    xlab("") +  
+    ylab("") + coord_flip()  + theme(legend.position="none")
+
+ggsave("strbio_violin.svg",plot,width=10, height=5)
+
+```
+

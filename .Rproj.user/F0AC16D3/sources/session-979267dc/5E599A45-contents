@@ -1,0 +1,91 @@
+% ------------------------------
+% Header LaTeX para Quarto (PDF)
+% Proyecto Docente — estilo sobrio/profesional
+% ------------------------------
+\typeout{=== HEADER.TEX CARGADO ===}
+
+% Colores (necesario para \textcolor y \definecolor)
+\usepackage{xcolor}
+\definecolor{UAMBlue}{HTML}{002060} % azul institucional (#002060)
+
+% Microtipografía (mejora “acabado” del texto)
+\usepackage{microtype}
+
+% Evita que LaTeX estire verticalmente las páginas
+\raggedbottom
+
+% --- Cabeceras/pies con KOMA (recomendado en Quarto PDF) ---
+\usepackage[automark]{scrlayer-scrpage}
+\clearpairofpagestyles
+
+% Estilo: pequeño, cursiva, gris
+\newcommand{\HeaderStyle}{\footnotesize\itshape\color{gray}}
+
+% Cabeceras pares/impares
+\lehead{\HeaderStyle Modesto Redrejo Rodríguez} % páginas pares
+\rohead{\HeaderStyle Proyecto Docente Plaza UAM2026-A1055TU}          % páginas impares
+
+% Línea bajo cabecera (opcional)
+\setheadsepline{0.3pt}
+
+% Número de página en pie (también en páginas 'plain')
+\cfoot*{\footnotesize\color{gray}\pagemark}
+
+%spanish
+\usepackage[spanish]{babel}
+\renewcommand{\tablename}{Tabla}
+\renewcommand{\figurename}{Figura}
+
+% ACTIVAR el estilo con cabecera
+\pagestyle{scrheadings}
+
+% IMPORTANTÍSIMO: los inicios de capítulo suelen usar 'plain' (sin cabecera).
+% Forzamos que también usen scrheadings:
+\renewcommand*{\chapterpagestyle}{scrheadings}
+
+% Seguro extra: por si el template cambia el pagestyle más tarde
+\AtBeginDocument{\pagestyle{scrheadings}}
+
+% Tablas y figuras: mejor aspecto tipográfico
+\usepackage{booktabs}
+\usepackage{caption}
+\captionsetup{
+  font=small,
+  labelfont=bf
+}
+
+% Evitar viudas/huérfanas (detalle de “calidad editorial”)
+\widowpenalty=10000
+\clubpenalty=10000
+
+
+%formato tablitas
+\usepackage{array}
+\setlength{\arrayrulewidth}{0.3pt}
+\setlength{\doublerulesep}{0pt}
+%\usepackage{booktabs}
+%\setlength{\lightrulewidth}{0.3pt}
+%\renewcommand{\arraystretch}{1.2}
+
+
+\AtBeginDocument{
+  \renewcommand{\tablename}{Tabla}
+  \renewcommand{\figurename}{Figura}
+}
+
+\usepackage[table]{xcolor}
+
+% Define gris muy suave
+\definecolor{lightgray}{gray}{0.95}
+
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=2em, noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt}
+
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{array} 
+\usepackage[table]{xcolor}
+\usepackage{hyperref}
+\usepackage{fontawesome5}

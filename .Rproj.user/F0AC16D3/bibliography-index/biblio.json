@@ -1,0 +1,1346 @@
+{
+    "sources": [
+        {
+            "URL": "https://zemplenimuzsa.hu/konyveink/",
+            "author": [
+                {
+                    "family": "Köpeczi-Bócz",
+                    "given": "Tamás"
+                }
+            ],
+            "id": "köpeczi-bócz2025",
+            "issued": {
+                "date-parts": [
+                    [
+                        2025
+                    ]
+                ]
+            },
+            "language": "hu",
+            "title": "New Paradigms of learning",
+            "type": "book"
+        },
+        {
+            "URL": "https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=133",
+            "author": [
+                {
+                    "family": "Alcubilla",
+                    "given": "Arnaldo"
+                }
+            ],
+            "id": "alcubilla2026",
+            "issued": {
+                "date-parts": [
+                    [
+                        2026
+                    ]
+                ]
+            },
+            "publisher": "CRUE",
+            "title": "Código de universidades",
+            "type": "book"
+        },
+        {
+            "URL": "https://ehea.info/media.ehea.info/file/Ministerial_conferences/06/0/1999_Bologna_Declaration_Spanish_553060.pdf",
+            "author": [
+                {
+                    "family": "Ministros europeos de Educación"
+                }
+            ],
+            "id": "bologna1999",
+            "issued": {
+                "date-parts": [
+                    [
+                        1999,
+                        6
+                    ]
+                ]
+            },
+            "language": "es-ES",
+            "note": "Citation Key: bologna1999",
+            "publisher-place": "Bolonia, Italia",
+            "title": "Declaración de bolonia: Espacio europeo de educación superior",
+            "title-short": "Declaración de bolonia",
+            "type": "report"
+        },
+        {
+            "URL": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+            "author": [
+                {
+                    "family": "Unión Europea"
+                }
+            ],
+            "container-title": "Diario Oficial de la Unión Europea",
+            "id": "unióneuropea2016",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016,
+                        4,
+                        27
+                    ]
+                ]
+            },
+            "page": "1-88",
+            "title": "Reglamento (UE) 2016/679 del parlamento europeo y del consejo, de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos (reglamento general de protección de datos, RGPD)",
+            "type": "article-journal",
+            "volume": "L 119"
+        },
+        {
+            "DOI": "10.1787/c00cad36-en",
+            "URL": "https://doi.org/10.1787/c00cad36-en",
+            "author": [
+                {
+                    "dropping-particle": "for",
+                    "family": "Economic Co-operation",
+                    "given": "Organisation"
+                },
+                {
+                    "family": "Development"
+                }
+            ],
+            "id": "organisationforeconomicco-operationanddevelopment2024",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "publisher": "OECD Publishing",
+            "publisher-place": "Paris",
+            "title": "Education at a glance 2024: OECD indicators",
+            "title-short": "Education at a glance 2024",
+            "type": "book"
+        },
+        {
+            "URL": "https://dialnet.unirioja.es/servlet/articulo?codigo=7095136",
+            "author": [
+                {
+                    "family": "López Melgarejo",
+                    "given": "Alba María"
+                }
+            ],
+            "container-title": "Educatio siglo XXI: Revista de la Facultad de Educación",
+            "id": "lópezmelgarejo2019",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            },
+            "language": "es",
+            "page": "267-286",
+            "title": "La Junta Nacional contra el analfabetismo (1950-1970): un análisis documental",
+            "title-short": "La Junta Nacional contra el analfabetismo (1950-1970)",
+            "type": "article-journal",
+            "volume": "37"
+        },
+        {
+            "URL": "https://www.crue.org/wp-content/uploads/2020/02/Cap.-5-Ascensor-social.pdf",
+            "author": [
+                {
+                    "family": "Conferencia de Rectores de las Universidades Españolas (CRUE)"
+                }
+            ],
+            "id": "crue2019",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            },
+            "language": "es",
+            "publisher": "CRUE Universidades Españolas",
+            "title": "La universidad como ascensor social",
+            "type": "chapter"
+        },
+        {
+            "ISBN": "978-84-09-81612-5",
+            "URL": "https://www.crue.org/wp-content/uploads/2026/01/UEC_2023-2024.pdf",
+            "author": [
+                {
+                    "family": "Hernández Armenteros",
+                    "given": "Juan"
+                },
+                {
+                    "family": "Pérez García",
+                    "given": "José Antonio"
+                }
+            ],
+            "edition": "XV edición",
+            "id": "hernandez2025",
+            "issued": {
+                "date-parts": [
+                    [
+                        2025
+                    ]
+                ]
+            },
+            "publisher": "CRUE Universidades Españolas",
+            "title": "La universidad española en cifras 2023-2024",
+            "type": "report"
+        },
+        {
+            "URL": "https://www.europarl.europa.eu/RegData/etudes/BRIE/2021/690630/EPRS_BRI(2021)690630_EN.pdf",
+            "author": [
+                {
+                    "family": "European Parliamentary Research Service"
+                }
+            ],
+            "id": "europeanparliamentaryresearchservice2021",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            },
+            "language": "en",
+            "title": "The european education area and the 2030 strategic framework for education and training",
+            "type": "article-journal"
+        },
+        {
+            "DOI": "10.2766/763090",
+            "URL": "https://education.ec.europa.eu/sites/default/files/document-library-docs/ects-users-guide_es.pdf",
+            "author": [
+                {
+                    "family": "European Commission"
+                }
+            ],
+            "id": "europeancommission2015",
+            "issued": {
+                "date-parts": [
+                    [
+                        2015
+                    ]
+                ]
+            },
+            "title": "ECTS users’ guide 2015",
+            "type": "report"
+        },
+        {
+            "author": [
+                {
+                    "family": "Cuervas-Mons Martínez",
+                    "given": "Valentín"
+                }
+            ],
+            "id": "alma991007757245904211",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018
+                    ]
+                ]
+            },
+            "language": "spa",
+            "note": "Citation Key: alma991007757245904211",
+            "publisher": "Fundación Teófilo Hernando",
+            "publisher-place": "Madrid",
+            "title": "Cincuenta años de la Facultad de Medicina de la UAM: Quid ultra faciam",
+            "title-short": "Cincuenta años de la Facultad de Medicina de la UAM",
+            "type": "chapter"
+        },
+        {
+            "DOI": "10.1126/science.1204109",
+            "URL": "https://www.science.org/doi/full/10.1126/science.1204109",
+            "author": [
+                {
+                    "family": "Feldon",
+                    "given": "David F."
+                },
+                {
+                    "family": "Peugh",
+                    "given": "James"
+                },
+                {
+                    "family": "Timmerman",
+                    "given": "Briana E."
+                },
+                {
+                    "family": "Maher",
+                    "given": "Michelle A."
+                },
+                {
+                    "family": "Hurst",
+                    "given": "Melissa"
+                },
+                {
+                    "family": "Strickland",
+                    "given": "Denise"
+                },
+                {
+                    "family": "Gilmore",
+                    "given": "Joanna A."
+                },
+                {
+                    "family": "Stiegelmeyer",
+                    "given": "Cindy"
+                }
+            ],
+            "container-title": "Science",
+            "id": "feldon2011",
+            "issue": "6045",
+            "issued": {
+                "date-parts": [
+                    [
+                        2011,
+                        8,
+                        19
+                    ]
+                ]
+            },
+            "page": "1037-1039",
+            "title": "Graduate students’ teaching experiences improve their methodological research skills",
+            "type": "article-journal",
+            "volume": "333"
+        },
+        {
+            "DOI": "10.1093/bib/bbx100",
+            "URL": "https://doi.org/10.1093/bib/bbx100",
+            "author": [
+                {
+                    "family": "Attwood",
+                    "given": "Teresa K"
+                },
+                {
+                    "family": "Blackford",
+                    "given": "Sarah"
+                },
+                {
+                    "family": "Brazas",
+                    "given": "Michelle D"
+                },
+                {
+                    "family": "Davies",
+                    "given": "Angela"
+                },
+                {
+                    "family": "Schneider",
+                    "given": "Maria Victoria"
+                }
+            ],
+            "container-title": "Briefings in Bioinformatics",
+            "id": "attwood2019",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019,
+                        3,
+                        25
+                    ]
+                ]
+            },
+            "page": "398-404",
+            "title": "A global perspective on evolving bioinformatics and data science training needs",
+            "type": "article-journal",
+            "volume": "20"
+        },
+        {
+            "author": [
+                {
+                    "family": "Sánchez",
+                    "given": "Primitivo"
+                }
+            ],
+            "id": "sánchez2008",
+            "issued": {
+                "date-parts": [
+                    [
+                        2008
+                    ]
+                ]
+            },
+            "publisher": "ICE de la Universidad Complutense",
+            "publisher-place": "Madrid",
+            "title": "Planificar la formación en el espacio europeo de educación superior títulos oficiales y materias",
+            "type": "book"
+        },
+        {
+            "DOI": "10.17227/rce.num90-15889",
+            "URL": "https://revistas.upn.edu.co/index.php/RCE/article/view/15889",
+            "author": [
+                {
+                    "family": "Iglesias-Soilán",
+                    "given": "Manuel"
+                },
+                {
+                    "family": "Sánchez-San-José",
+                    "given": "Irene"
+                },
+                {
+                    "family": "Cano-Maganto",
+                    "given": "Andrés"
+                },
+                {
+                    "family": "Carretero-Peinado",
+                    "given": "Claudia"
+                }
+            ],
+            "container-title": "Revista Colombiana de Educación",
+            "id": "iglesias-soilán2024",
+            "issue": "90",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024,
+                        1,
+                        1
+                    ]
+                ]
+            },
+            "language": "es",
+            "page": "283-303",
+            "title": "Lección magistral interactiva: una metodología universitaria asequible y eficiente",
+            "title-short": "Lección magistral interactiva",
+            "type": "article-journal"
+        },
+        {
+            "author": [
+                {
+                    "family": "Morell Moll",
+                    "given": "Teresa Author"
+                }
+            ],
+            "id": "morellmoll2004",
+            "issued": {
+                "date-parts": [
+                    [
+                        2004
+                    ]
+                ]
+            },
+            "note": "Journal Abbreviation: La interacción en la clase magistral Publication Title: La interacción en la clase magistral",
+            "publisher": "Publicaciones de la Universidad de Alicante",
+            "publisher-place": "[Place of publication not identified]",
+            "title": "La interacción en la clase magistral",
+            "type": "book"
+        },
+        {
+            "DOI": "10.30827/profesorado.v24i2.15149",
+            "author": [
+                {
+                    "family": "Fernández Fernández",
+                    "given": "Idoia"
+                },
+                {
+                    "family": "Madinabeitia Ezkurra",
+                    "given": "Alba"
+                }
+            ],
+            "container-title": "Profesorado. Revista de Currículum y Formación del Profesorado",
+            "id": "fernandezmadinabeitia2020",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "title": "La transformación docente de la universidad a veinte años de bolonia: Balance y claves para un futuro por definir",
+            "title-short": "La transformación docente de la universidad a veinte años de bolonia",
+            "type": "article-journal",
+            "volume": "24"
+        },
+        {
+            "DOI": "10.5772/intechopen.81086",
+            "author": [
+                {
+                    "family": "Johnson",
+                    "given": "David W."
+                },
+                {
+                    "family": "Johnson",
+                    "given": "Roger T."
+                }
+            ],
+            "container-title": "Active learning—beyond the future",
+            "editor": [
+                {
+                    "family": "Brito",
+                    "given": "Sílvio Manuel"
+                }
+            ],
+            "id": "johnson2018",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018
+                    ]
+                ]
+            },
+            "publisher": "IntechOpen",
+            "title": "Cooperative learning: The foundation for active learning",
+            "title-short": "Cooperative learning",
+            "type": "chapter"
+        },
+        {
+            "DOI": "10.1073/pnas.1916903117",
+            "author": [
+                {
+                    "family": "Theobald",
+                    "given": "Elli J."
+                },
+                {
+                    "family": "Hill",
+                    "given": "Mariah J."
+                },
+                {
+                    "family": "Tran",
+                    "given": "Elisa"
+                },
+                {
+                    "family": "Agrawal",
+                    "given": "Sweta"
+                },
+                {
+                    "family": "Arroyo",
+                    "given": "E. Nicole"
+                },
+                {
+                    "family": "Behling",
+                    "given": "Shawn"
+                },
+                {
+                    "family": "Chambwe",
+                    "given": "Nyasha"
+                },
+                {
+                    "family": "Laboy Cintrón",
+                    "given": "Dianne"
+                },
+                {
+                    "family": "Cooper",
+                    "given": "Jacob D."
+                },
+                {
+                    "family": "Dunster",
+                    "given": "Gideon"
+                },
+                {
+                    "family": "Grummer",
+                    "given": "Jared A."
+                },
+                {
+                    "family": "Hennessey",
+                    "given": "Kelly"
+                },
+                {
+                    "family": "Hsiao",
+                    "given": "Jennifer"
+                },
+                {
+                    "family": "Iranon",
+                    "given": "Nicole"
+                },
+                {
+                    "family": "Jones",
+                    "given": "Leonard"
+                },
+                {
+                    "family": "Jordt",
+                    "given": "Hannah"
+                },
+                {
+                    "family": "Keller",
+                    "given": "Marlowe"
+                },
+                {
+                    "family": "Lacey",
+                    "given": "Melissa E."
+                },
+                {
+                    "family": "Littlefield",
+                    "given": "Caitlin E."
+                },
+                {
+                    "family": "Lowe",
+                    "given": "Alexander"
+                },
+                {
+                    "family": "Newman",
+                    "given": "Shannon"
+                },
+                {
+                    "family": "Okolo",
+                    "given": "Vera"
+                },
+                {
+                    "family": "Olroyd",
+                    "given": "Savannah"
+                },
+                {
+                    "family": "Peecook",
+                    "given": "Brandon R."
+                },
+                {
+                    "family": "Pickett",
+                    "given": "Sarah B."
+                },
+                {
+                    "family": "Slager",
+                    "given": "David L."
+                },
+                {
+                    "family": "Caviedes-Solis",
+                    "given": "Itzue W."
+                },
+                {
+                    "family": "Stanchak",
+                    "given": "Kathryn E."
+                },
+                {
+                    "family": "Sundaravardan",
+                    "given": "Vasudha"
+                },
+                {
+                    "family": "Valdebenito",
+                    "given": "Camila"
+                },
+                {
+                    "family": "Williams",
+                    "given": "Claire R."
+                },
+                {
+                    "family": "Zinsli",
+                    "given": "Kaitlin"
+                },
+                {
+                    "family": "Freeman",
+                    "given": "Scott"
+                }
+            ],
+            "container-title": "Proceedings of the National Academy of Sciences",
+            "id": "theobald2020",
+            "issue": "12",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "page": "6476-6483",
+            "title": "Active learning narrows achievement gaps for underrepresented students in undergraduate science, technology, engineering, and math",
+            "type": "article-journal",
+            "volume": "117"
+        },
+        {
+            "DOI": "10.1187/cbe.19-04-0079",
+            "author": [
+                {
+                    "family": "Petersen",
+                    "given": "Christina I."
+                },
+                {
+                    "family": "Baepler",
+                    "given": "Paul"
+                },
+                {
+                    "family": "Beitz",
+                    "given": "Al"
+                },
+                {
+                    "family": "Ching",
+                    "given": "Paul"
+                },
+                {
+                    "family": "Gorman",
+                    "given": "Kristen S."
+                },
+                {
+                    "family": "Neudauer",
+                    "given": "Cheryl L."
+                },
+                {
+                    "family": "Rozaitis",
+                    "given": "William"
+                },
+                {
+                    "family": "Walker",
+                    "given": "J. D."
+                },
+                {
+                    "family": "Wingert",
+                    "given": "Deb"
+                }
+            ],
+            "container-title": "CBELife Sciences Education",
+            "id": "petersen2020",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "page": "ar17",
+            "title": "The tyranny of content: “Content coverage” as a barrier to evidence-based teaching approaches and ways to overcome it",
+            "title-short": "The tyranny of content",
+            "type": "article-journal",
+            "volume": "19"
+        },
+        {
+            "DOI": "10.5944/educXX1.25409",
+            "author": [
+                {
+                    "family": "Pineda-Alfonso",
+                    "given": "José Antonio"
+                },
+                {
+                    "family": "Duarte Piña",
+                    "given": "Olga María"
+                }
+            ],
+            "container-title": "Educación XX1",
+            "id": "pineda-alfonso2020",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "page": "95118",
+            "title": "Las concepciones pedagógicas del profesorado universitario: Un punto de partida para el cambio docente",
+            "title-short": "Las concepciones pedagógicas del profesorado universitario",
+            "type": "article-journal",
+            "volume": "23"
+        },
+        {
+            "DOI": "10.3389/feduc.2022.916502",
+            "author": [
+                {
+                    "family": "Valverde-Berrocoso",
+                    "given": "Jesús"
+                },
+                {
+                    "family": "Acevedo-Borrega",
+                    "given": "Jesús"
+                },
+                {
+                    "family": "Cerezo-Pizarro",
+                    "given": "Mario"
+                }
+            ],
+            "container-title": "Frontiers in Education",
+            "id": "valverde-berrocoso2022",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022
+                    ]
+                ]
+            },
+            "page": "916502",
+            "title": "Educational technology and student performance: A systematic review",
+            "title-short": "Educational technology and student performance",
+            "type": "article-journal",
+            "volume": "7"
+        },
+        {
+            "DOI": "10.1017/CBO9780511816833.020",
+            "author": [
+                {
+                    "family": "Krajcik",
+                    "given": "Joseph S."
+                },
+                {
+                    "family": "Blumenfeld",
+                    "given": "Phyllis C."
+                }
+            ],
+            "editor": [
+                {
+                    "family": "Sawyer",
+                    "given": "R. Keith"
+                }
+            ],
+            "id": "krajcik2005",
+            "issued": {
+                "date-parts": [
+                    [
+                        2005
+                    ]
+                ]
+            },
+            "page": "317334",
+            "publisher": "Cambridge University Press",
+            "title": "Project-based learning",
+            "type": "chapter"
+        },
+        {
+            "DOI": "10.1017/S1049096521001104",
+            "author": [
+                {
+                    "family": "Meyer",
+                    "given": "Cosima"
+                }
+            ],
+            "container-title": "PS: Political Science & Politics",
+            "id": "meyer2021",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            },
+            "title": "Bringing the world to the classroom: Teaching statistics and programming in a project-based setting",
+            "title-short": "Bringing the world to the classroom",
+            "type": "article-journal"
+        },
+        {
+            "URL": "http://www.digitaliapublishing.com/a/29006/evaluacion-formativa-y-compartida-en-educacion-superior---propuestas--tecnicas--instrumentos-y-experiencias",
+            "author": [
+                {
+                    "family": "López Pastor",
+                    "given": "V. M."
+                }
+            ],
+            "id": "lópezpastor2009",
+            "issued": {
+                "date-parts": [
+                    [
+                        2009
+                    ]
+                ]
+            },
+            "language": "es",
+            "title": "Evaluación formativa y compartida en Educación Superior : propuestas, técnicas, instrumentos y experiencias",
+            "title-short": "Evaluación formativa y compartida en Educación Superior ",
+            "type": ""
+        },
+        {
+            "author": [
+                {
+                    "family": "Ruiz Martín",
+                    "given": "Héctor"
+                }
+            ],
+            "id": "ruizmartín2020",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "publisher": "Grao",
+            "title": "¿Cómo aprendemos?",
+            "type": "book"
+        },
+        {
+            "URL": "https://www.ugr.es/~recfpro/rev192COL2.pdf",
+            "author": [
+                {
+                    "family": "Cano",
+                    "given": "Elena"
+                }
+            ],
+            "container-title": "Profesorado. Revista de Currículum y Formación del Profesorado",
+            "id": "cano2015",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2015
+                    ]
+                ]
+            },
+            "title": "Las rúbricas como instrumento de evaluación de competencias en educación superior: ¿Uso o abuso?",
+            "title-short": "Las rúbricas como instrumento de evaluación de competencias en educación superior",
+            "type": "article-journal",
+            "volume": "19"
+        },
+        {
+            "URL": "https://www.crue.org/wp-content/uploads/2024/03/Crue-Digitalizacion_IA-Generativa.pdf",
+            "author": [
+                {
+                    "family": "Cruz Argudo",
+                    "given": "Francisco"
+                },
+                {
+                    "family": "García Varea",
+                    "given": "Ismael"
+                },
+                {
+                    "family": "Martínez Carrascal",
+                    "given": "Juan A."
+                },
+                {
+                    "family": "Ruiz Martínez",
+                    "given": "Antonio"
+                },
+                {
+                    "family": "Ruiz Martínez",
+                    "given": "Pedro M."
+                },
+                {
+                    "family": "Sánchez Campos",
+                    "given": "Alberto"
+                },
+                {
+                    "family": "Turró Ribalta",
+                    "given": "Carlos"
+                }
+            ],
+            "id": "cruzargudo2024",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "title": "La inteligencia artificial generativa en la docencia universitaria: Oportunidades, desafíos y recomendaciones",
+            "title-short": "La inteligencia artificial generativa en la docencia universitaria",
+            "type": "report"
+        },
+        {
+            "URL": "https://unesdoc.unesco.org/ark:/48223/pf0000389227",
+            "author": [
+                {
+                    "family": "Miao",
+                    "given": "Fengchun"
+                },
+                {
+                    "family": "Holmes",
+                    "given": "Wayne"
+                }
+            ],
+            "collection-title": "Guidance for generative AI in education and research",
+            "id": "miao2024",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "language": "es-ES",
+            "publisher": "Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO)",
+            "publisher-place": "París",
+            "title": "Guía para el uso de IA generativa en educación e investigación",
+            "type": "book"
+        },
+        {
+            "DOI": "10.2766/7967834",
+            "URL": "https://op.europa.eu/en/publication-detail/-/publication/f692aa0b-17a7-11f1-8870-01aa75ed71a1/",
+            "author": [
+                {
+                    "family": "Directorate-General for Education",
+                    "given": "Youth",
+                    "suffix": "Sport and Culture (European Commission)"
+                }
+            ],
+            "id": "directorate-generalforeducation2026",
+            "issued": {
+                "date-parts": [
+                    [
+                        2026
+                    ]
+                ]
+            },
+            "title": "Guidelines on the ethical use of artificial intelligence and data in teaching and learning for educators",
+            "type": "report"
+        },
+        {
+            "DOI": "10.14434/ijdl.v16i2.41995",
+            "URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12965148/",
+            "author": [
+                {
+                    "family": "Suresh",
+                    "given": "Divya"
+                },
+                {
+                    "family": "Dilek",
+                    "given": "Melis"
+                },
+                {
+                    "family": "Karabulut-Ilgu",
+                    "given": "Aliye"
+                },
+                {
+                    "family": "Baran",
+                    "given": "Evrim"
+                },
+                {
+                    "family": "Kimber",
+                    "given": "Michael"
+                }
+            ],
+            "container-title": "International journal of designs for learning",
+            "id": "suresh2025",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2025
+                    ]
+                ]
+            },
+            "page": "244-265",
+            "title": "GENERATIVE AI IN LEARNING DESIGN PRACTICE: BUILDING AN ONLINE COURSE FOR BIOMEDICAL SCIENCES RESEARCH PROGRAMS",
+            "title-short": "GENERATIVE AI IN LEARNING DESIGN PRACTICE",
+            "type": "article-journal",
+            "volume": "16"
+        },
+        {
+            "DOI": "10.1002/qub2.67",
+            "URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11446534/",
+            "author": [
+                {
+                    "family": "Wang",
+                    "given": "Jinge"
+                },
+                {
+                    "family": "Cheng",
+                    "given": "Zien"
+                },
+                {
+                    "family": "Yao",
+                    "given": "Qiuming"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Li"
+                },
+                {
+                    "family": "Xu",
+                    "given": "Dong"
+                },
+                {
+                    "family": "Hu",
+                    "given": "Gangqing"
+                }
+            ],
+            "container-title": "Quantitative Biology",
+            "id": "wang2024",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024,
+                        6,
+                        27
+                    ]
+                ]
+            },
+            "page": "345-359",
+            "title": "Bioinformatics and biomedical informatics with ChatGPT: Year one review",
+            "title-short": "Bioinformatics and biomedical informatics with ChatGPT",
+            "type": "article-journal",
+            "volume": "12"
+        },
+        {
+            "DOI": "10.1002/bmb.21899",
+            "URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12290243/",
+            "author": [
+                {
+                    "family": "Delcher",
+                    "given": "Haley A."
+                },
+                {
+                    "family": "Alsatari",
+                    "given": "Enas S."
+                },
+                {
+                    "family": "Haastrup",
+                    "given": "Adeyeye I."
+                },
+                {
+                    "family": "Naaz",
+                    "given": "Sayema"
+                },
+                {
+                    "family": "Hayes-Guastella",
+                    "given": "Lydia A."
+                },
+                {
+                    "family": "McDaniel",
+                    "given": "Autumn M."
+                },
+                {
+                    "family": "Clark",
+                    "given": "Olivia G."
+                },
+                {
+                    "family": "Katerski",
+                    "given": "Devin M."
+                },
+                {
+                    "family": "Prinsloo",
+                    "given": "Francois O."
+                },
+                {
+                    "family": "Roberts",
+                    "given": "Olivia R."
+                },
+                {
+                    "family": "Shaddix",
+                    "given": "Meredith A."
+                },
+                {
+                    "family": "Sullivan",
+                    "given": "Bridgette N."
+                },
+                {
+                    "family": "Swan",
+                    "given": "Isabella M."
+                },
+                {
+                    "family": "Hartsell",
+                    "given": "Emily M."
+                },
+                {
+                    "family": "DeMeis",
+                    "given": "Jeffrey D."
+                },
+                {
+                    "family": "Paudel",
+                    "given": "Sunita S."
+                },
+                {
+                    "family": "Borchert",
+                    "given": "Glen M."
+                }
+            ],
+            "container-title": "Biochemistry and Molecular Biology Education",
+            "id": "delcher2025",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        2025
+                    ]
+                ]
+            },
+            "page": "433-444",
+            "title": "Using ChatGPT as a tool for training nonprogrammers to generate genomic sequence analysis code",
+            "type": "article-journal",
+            "volume": "53"
+        },
+        {
+            "DOI": "10.15302/J-QB-023-0327",
+            "URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10299548/",
+            "author": [
+                {
+                    "family": "Shue",
+                    "given": "Evelyn"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Li"
+                },
+                {
+                    "family": "Li",
+                    "given": "Bingxin"
+                },
+                {
+                    "family": "Feng",
+                    "given": "Zifeng"
+                },
+                {
+                    "family": "Li",
+                    "given": "Xin"
+                },
+                {
+                    "family": "Hu",
+                    "given": "Gangqing"
+                }
+            ],
+            "container-title": "Quantitative Biology",
+            "id": "shue2023",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023,
+                        6,
+                        1
+                    ]
+                ]
+            },
+            "page": "105-108",
+            "title": "Empowering beginners in bioinformatics with ChatGPT",
+            "type": "article-journal",
+            "volume": "11"
+        },
+        {
+            "DOI": "10.62273/DVNQ9288",
+            "URL": "https://isedj.org/2025-23/n4/ISEDJv23n4p34.html",
+            "author": [
+                {
+                    "family": "Frydenberg",
+                    "given": "Mark"
+                },
+                {
+                    "family": "Xu",
+                    "given": "Anqi"
+                },
+                {
+                    "family": "Xu",
+                    "given": "Jennifer"
+                }
+            ],
+            "container-title": "Information Systems Education Journal",
+            "id": "frydenberg2025",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        2025
+                    ]
+                ]
+            },
+            "language": "en",
+            "page": "34-56",
+            "title": "Student perceptions of learning through original and AI-generated python programs from a software quality perspective",
+            "type": "article-journal",
+            "volume": "25"
+        },
+        {
+            "author": [
+                {
+                    "family": "Sajadieh",
+                    "given": "Sha"
+                },
+                {
+                    "family": "Fattorini",
+                    "given": "Loredana"
+                },
+                {
+                    "family": "Perrault",
+                    "given": "Raymond"
+                },
+                {
+                    "family": "Gil",
+                    "given": "Yolanda"
+                },
+                {
+                    "family": "Parli",
+                    "given": "Vanessa"
+                },
+                {
+                    "family": "Santarlasci",
+                    "given": "Lapo"
+                },
+                {
+                    "family": "Pava",
+                    "given": "Juan"
+                },
+                {
+                    "family": "Maslej",
+                    "given": "Nestor"
+                },
+                {
+                    "family": "Altman",
+                    "given": "Russ"
+                },
+                {
+                    "family": "Brynjolfsson",
+                    "given": "Erik"
+                },
+                {
+                    "family": "Brodley",
+                    "given": "Carla"
+                },
+                {
+                    "family": "Clark",
+                    "given": "Jack"
+                },
+                {
+                    "family": "Dignum",
+                    "given": "Virginia"
+                },
+                {
+                    "family": "Kumar",
+                    "given": "Vipin"
+                },
+                {
+                    "family": "Landay",
+                    "given": "James"
+                }
+            ],
+            "id": "sajadieh",
+            "title": "The 2026 AI index report",
+            "type": "report"
+        },
+        {
+            "DOI": "10.30827/relieve.v29i2.29134",
+            "URL": "https://revistaseug.ugr.es/index.php/RELIEVE/article/view/29134",
+            "author": [
+                {
+                    "family": "Torres",
+                    "given": "Cinta Gallent"
+                },
+                {
+                    "family": "González",
+                    "given": "Alfredo Zapata"
+                },
+                {
+                    "family": "Hernando",
+                    "given": "José Luis Ortego"
+                }
+            ],
+            "container-title": "RELIEVE - Revista Electrónica de Investigación y Evaluación Educativa",
+            "id": "torres2023",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023,
+                        12,
+                        11
+                    ]
+                ]
+            },
+            "language": "es",
+            "title": "El impacto de la inteligencia artificial generativa en educación superior: una mirada desde la ética y la integridad académica",
+            "title-short": "El impacto de la inteligencia artificial generativa en educación superior",
+            "type": "article-journal",
+            "volume": "29"
+        },
+        {
+            "URL": "https://dialnet.unirioja.es/servlet/articulo?codigo=10471120",
+            "author": [
+                {
+                    "family": "Jácome Ayala",
+                    "given": "Paulina Johanna"
+                },
+                {
+                    "family": "Checa Cabrera",
+                    "given": "Marco Antonio"
+                }
+            ],
+            "container-title": "HOLOPRAXIS: Revista de Ciencia, Tecnología e Innovación",
+            "id": "jácomeayala2025",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2025
+                    ]
+                ]
+            },
+            "language": "spa",
+            "page": "366-385",
+            "title": "Impacto de la Inteligencia Artificial Generativa en el aprendizaje de estudiantes de Desarrollo de Software: Impacto de la Inteligencia Artificial Generativa en el aprendizaje de estudiantes de Desarrollo de Software",
+            "title-short": "Impacto de la Inteligencia Artificial Generativa en el aprendizaje de estudiantes de Desarrollo de Software",
+            "type": "article-journal",
+            "volume": "9"
+        }
+    ],
+    "project_biblios": [
+        "references.bib"
+    ]
+}

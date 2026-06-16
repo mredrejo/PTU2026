@@ -1,0 +1,58 @@
+---
+title: "Implementation of an ELN in BqExAvI"
+author: "Modesto Redrejo Rodríguez"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+```{r}
+#workload punctuation reversed: 1=too high workload
+data <- read.csv2("data_survey.csv", head=TRUE, sep=";") 
+
+data.stack <- cbind(data[1:3],stack(data[4:30]))
+
+colnames(data.stack) <- c("Year","Question","text","Answer","Student")
+data.stack <- na.exclude(data.stack)
+
+# boxplot
+library(ggplot2)
+
+#stacked plots
+library(tigerstats)
+tablita2021 <- rowPerc(xtabs(~Question+Answer,data=data.stack[data.stack$Year==2021,]))
+tablita2022 <- rowPerc(xtabs(~Question+Answer,data=data.stack[data.stack$Year==2022,]))
+tablita2021_df <- as.data.frame(tablita2021[,1:5])
+tablita2022_df <- as.data.frame(tablita2022[,1:5])
+myColors <- c("darkgreen","green","orange","red","darkred","black")
+#bar plot 
+plot2021 <- ggplot(data = tablita2021_df, aes(x =Question , y = Freq, fill = Answer))+
+  geom_bar(stat="identity", width = 0.7) +
+   scale_fill_brewer(palette="RdYlGn", labels=c("Totally disagree/Very Low","Disagree/Low","OK!","Agree/High","Totally agree/Very High"), name="Answer") +
+  coord_flip() +
+  ylab("Percentage") +
+  xlab("Question") +
+  theme(axis.text=element_text(size=12),
+        axis.title=element_text(size=14,face="bold")) +
+ theme(plot.title = element_text(size = 20, face = "bold",hjust = 0.5)) + 
+  scale_x_discrete(labels=unique(data.stack$text)) + xlab("") +
+  theme_bw()
+ggsave("strbio2021.svg",plot2021,width=10, height=4)
+
+plot2022 <- ggplot(data = tablita2022_df, aes(x =Question , y = Freq, fill = Answer))+
+  geom_bar(stat="identity", width = 0.7) +
+   scale_fill_brewer(palette="RdYlGn", labels=c("Totally disagree/Very Low","Disagree/Low","OK!","Agree/High","Totally agree/Very High"),name="Answer") +
+  coord_flip() +
+  ylab("Percentage") +
+  xlab("Question") +
+  theme(axis.text=element_text(size=12),
+        axis.title=element_text(size=14,face="bold")) +
+ theme(plot.title = element_text(size = 20, face = "bold",hjust = 0.5)) + 
+  scale_x_discrete(labels=unique(data.stack$text)) + xlab("") +
+  theme_bw()
+ggsave("strbio2022.svg",plot2022,width=10, height=4)
+
+
+
+
+
+```
+

@@ -1,0 +1,31 @@
+Total páginas procesadas: 26
+Registros conservados: 25
+Duplicados detectados: 1
+- Página 14 duplicada de página 11 (Marina Paredes Nieto)
+
+Nombres detectados/mejorados:
+- Página 1: Estudiante_01
+- Página 2: Estudiante_02
+- Página 3: Estudiante_03
+- Página 4: Estudiante_04
+- Página 5: Alinche Rubio
+- Página 6: Estudiante_06
+- Página 7: Estudiante_07
+- Página 8: Estudiante_08
+- Página 9: Estudiante_09
+- Página 10: Estudiante_10
+- Página 11: Marina Paredes Nieto
+- Página 12: Estudiante_12
+- Página 13: Siran Du
+- Página 15: Estudiante_15
+- Página 16: Estudiante_16
+- Página 17: Estudiante_17
+- Página 18: Estudiante_18
+- Página 19: Guiséner Canal Javier
+- Página 20: Estudiante_20
+- Página 21: Estudiante_21
+- Página 22: Estudiante_22
+- Página 23: Estudiante_23
+- Página 24: Emilio Ríos Jiménez
+- Página 25: Estudiante_25
+- Página 26: Estudiante_26

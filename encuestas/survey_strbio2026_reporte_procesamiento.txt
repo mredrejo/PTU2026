@@ -1,0 +1,32 @@
+Procesamiento de encuestas de Bioinformática Estructural 2025-2026
+
+Total de páginas/encuestas procesadas: 26
+Encuestas conservadas en el CSV final: 26
+Duplicados exactos detectados: 0
+
+Notas de limpieza/OCR:
+- El CSV final está anonimizado; usa identificadores Encuesta_XX.
+- Los comentarios de texto libre NO se incluyen en las tablas CSV; solo aparecen en este informe.
+- Algunos valores son ambiguos por OCR o escritura manual (por ejemplo campos en blanco, 4.5, o respuestas no legibles). Se han conservado tal cual o se han dejado vacíos cuando la lectura no era fiable.
+
+Comentarios de texto libre (anonimizados):
+
+Encuesta_05 (página 5)
+Propongo juntar ambas entregas de la parte 1 en una, haciéndole algo más suave, ya que ha supuesto
+una carga de trabajo importante.
+
+Encuesta_11 (página 11)
+Dar más peso todavía a modelado con IA (AF2.3 / AF3 / Boltz? ...) y a métodos más desconocidos
+(¿LP?SAE). Incluir algo de diseño de proteínas (Bindcraft / Boltagen ...).
+
+Encuesta_15 (página 15)
+I think 3 assignments for a 3-credit course is too much. However, all of the content was really
+interesting, so maybe convert this course to a 6-credit course and delve deeper into modelling, as
+it is extremely relevant in our society today.
+
+Encuesta_25 (página 25)
+Creo que hay demasiados trabajos; creo que quitar uno de los dos primeros estaría bien. Así se
+reduce la carga de trabajo, que ahora es bastante alta.
+
+Encuesta_26 (página 26)
+Más dirigido.
