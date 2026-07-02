@@ -22,8 +22,8 @@
 \newcommand{\HeaderStyle}{\footnotesize\itshape\color{gray}}
 
 % Cabeceras pares/impares
-\lehead{\HeaderStyle Modesto Redrejo Rodríguez} % páginas pares
-\rohead{\HeaderStyle Proyecto Docente Plaza UAM2026-A1055TU}          % páginas impares
+\rehead{\HeaderStyle Candidato: Modesto Redrejo Rodríguez} % páginas pares
+\lohead{\HeaderStyle Proyecto Docente Plaza UAM2026-A1055TU}          % páginas impares
 
 % Línea bajo cabecera (opcional)
 \setheadsepline{0.3pt}
@@ -31,10 +31,6 @@
 % Número de página en pie (también en páginas 'plain')
 \cfoot*{\footnotesize\color{gray}\pagemark}
 
-%spanish
-\usepackage[spanish]{babel}
-\renewcommand{\tablename}{Tabla}
-\renewcommand{\figurename}{Figura}
 
 % ACTIVAR el estilo con cabecera
 \pagestyle{scrheadings}
@@ -71,6 +67,7 @@
 \AtBeginDocument{
   \renewcommand{\tablename}{Tabla}
   \renewcommand{\figurename}{Figura}
+  \renewcommand{\chaptername}{Sección}
 }
 
 \usepackage[table]{xcolor}
@@ -89,3 +86,13 @@
 \usepackage[table]{xcolor}
 \usepackage{hyperref}
 \usepackage{fontawesome5}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,babel}
+
+%spanish
+%\usepackage[spanish]{babel}
+
+\renewcommand{\tablename}{Tabla}
+\renewcommand{\figurename}{Figura}
+\renewcommand{\chaptername}{Sección}
+

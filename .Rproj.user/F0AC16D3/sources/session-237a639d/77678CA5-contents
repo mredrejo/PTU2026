@@ -1,0 +1,36 @@
+\begin{titlepage}
+\centering
+\vspace*{1cm}
+\thispagestyle{empty}
+
+\includegraphics[height=1.8cm]{images/logo_uam.pdf}\hfill
+\\
+\vspace{1.5cm}
+\includegraphics[height=1.8cm]{images/logo_medicina.jpg}
+
+\vspace{1.5cm}
+
+{\Large Concurso de acceso al cuerpo de}\\[0.2cm]
+{\Large Profesores Titulares de Universidad}\\[1.2cm]
+
+{\Huge \textcolor[HTML]{002060}{\textbf{PROYECTO DOCENTE}}}\\[1.0cm]
+
+{\LARGE \textbf{Modesto Redrejo Rodríguez}}\\[1.0cm]
+
+{\large \textcolor[HTML]{002060}{Convocatoria:} UAM2026-A1055TU}\\[0.2cm]
+{\small Resolución de 9 de junio de 2026 (BOE 16/6/2026)}\\[0.8cm]
+
+{\large \textcolor[HTML]{002060}{\textbf{ÁREA DE CONOCIMIENTO}}}\\
+{\large \textbf{Bioquímica y Biología Molecular}}\\[1.3cm]
+
+{\large \textcolor[HTML]{2F4F4F}{CENTRO}}\\
+{\large \textcolor[HTML]{2F4F4F}{Departamento de Bioquímica (Facultad de Medicina)}}\\[1.3cm]
+
+
+\vfill
+\end{titlepage}
+
+\clearpage
+\thispagestyle{empty}
+\null
+\clearpage

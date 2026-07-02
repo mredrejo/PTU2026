@@ -91,12 +91,7 @@
             "URL": "https://doi.org/10.1787/c00cad36-en",
             "author": [
                 {
-                    "dropping-particle": "for",
-                    "family": "Economic Co-operation",
-                    "given": "Organisation"
-                },
-                {
-                    "family": "Development"
+                    "literal": "Organisation for Economic Co-operation and Development"
                 }
             ],
             "id": "organisationforeconomicco-operationanddevelopment2024",
@@ -383,7 +378,7 @@
                 }
             ],
             "container-title": "Revista Colombiana de Educación",
-            "id": "iglesias-soilán2024",
+            "id": "iglesiassoilan2024",
             "issue": "90",
             "issued": {
                 "date-parts": [
@@ -1272,6 +1267,13 @@
                 }
             ],
             "id": "sajadieh",
+            "issued": {
+                "date-parts": [
+                    [
+                        2026
+                    ]
+                ]
+            },
             "title": "The 2026 AI index report",
             "type": "report"
         },
@@ -1338,6 +1340,148 @@
             "title-short": "Impacto de la Inteligencia Artificial Generativa en el aprendizaje de estudiantes de Desarrollo de Software",
             "type": "article-journal",
             "volume": "9"
+        },
+        {
+            "author": [
+                {
+                    "family": "Sajadi",
+                    "given": "Susan"
+                },
+                {
+                    "family": "Huerta",
+                    "given": "Mark"
+                },
+                {
+                    "family": "Ryan",
+                    "given": "Olivia"
+                },
+                {
+                    "family": "Drinkwater",
+                    "given": "Katie"
+                }
+            ],
+            "id": "sajadi_harnessing_nodate",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "title": "Harnessing Generative AI to Enhance Feedback Quality in Peer Evaluations within Project-Based Learning Contexts",
+            "type": "article-journal"
+        },
+        {
+            "DOI": "10.1007/s10639-025-13758-4",
+            "ISSN": "1573-7608",
+            "URL": "https://doi.org/10.1007/s10639-025-13758-4",
+            "abstract": "In today’s knowledge society, where artificial intelligence (AI) technologies are increasingly integrated into educational contexts, designing intelligent learning systems with cognitive scaffolding functions has become a critical issue in learning technology research. Unmanned Aerial Vehicle (UAV) courses, which involve mechanical assembly, sensor integration, data processing, and flight control, present a highly integrated STEM learning task and an ideal context for examining the effectiveness of generative AI-assisted learning. This study employed a quasi-experimental design involving 64 first-year engineering students, who were randomly assigned to either an experimental group or a control group to participate in a six-week UAV-based project-oriented STEM course. The experimental group interacted with a GPT-based system featuring semantic prompts and dynamic feedback to support reflective questioning and strategic adjustment, while the control group engaged in paper-based reflection activities. Independent sample t-tests revealed that students in the experimental group significantly outperformed their counterparts in STEM literacy, levels of reflection, and higher-order thinking indicators. Furthermore, thematic analysis of students’ reflection records and AI dialogues demonstrated that the GPT system effectively facilitated verbalized reflection and multi-level cognitive regulation. Students’ engagement gradually shifted from operational procedures to conceptually driven strategic understanding. This study confirms the feasibility of AI-supported reflection and provides concrete theoretical and practical implications for the design and evaluation of future intelligent learning systems.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2026,
+                        6,
+                        25
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Chen",
+                    "given": "Shih-Yeh"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Wei-Cheng"
+                },
+                {
+                    "family": "Lai",
+                    "given": "Chin-Feng"
+                }
+            ],
+            "container-title": "Education and Information Technologies",
+            "id": "chen_generative_2025",
+            "issue": "17",
+            "issued": {
+                "date-parts": [
+                    [
+                        2025,
+                        11
+                    ]
+                ]
+            },
+            "keyword": "Generative AI, Higher-order thinking skills, Reflective thinking, STEM education, UAV-based engineering learning",
+            "page": "24787-24814",
+            "title": "Generative AI as a reflective scaffold in a UAV-based STEM project: A mixed-methods study on students’ higher-order thinking and cognitive transformation",
+            "title-short": "Generative AI as a reflective scaffold in a UAV-based STEM project",
+            "type": "article-journal",
+            "volume": "30"
+        },
+        {
+            "ISBN": "978-0-674-26038-2",
+            "URL": "https://www.hup.harvard.edu/books/9780674260382",
+            "annote": "Verificar el año exacto de la edición asociada al ISBN 9780674260382 en la página del editor.",
+            "author": [
+                {
+                    "family": "Gooblar",
+                    "given": "David"
+                }
+            ],
+            "id": "gooblar_missing_2019",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            },
+            "publisher": "Harvard University Press",
+            "publisher-place": "Cambridge, MA",
+            "title": "The Missing Course: Everything They Never Taught You about College Teaching",
+            "title-short": "The Missing Course",
+            "type": "book"
+        },
+        {
+            "ISBN": "0-415-30345-1",
+            "annote": "Includes bibliographical references and index.",
+            "author": [
+                {
+                    "family": "Ramsden",
+                    "given": "Paul."
+                }
+            ],
+            "edition": "2nd ed.",
+            "id": "ramsden_learning_2003",
+            "issued": {
+                "date-parts": [
+                    [
+                        2003
+                    ]
+                ]
+            },
+            "publisher": "RoutledgeFalmer",
+            "publisher-place": "London",
+            "title": "Learning to teach in higher education",
+            "type": "book"
+        },
+        {
+            "URL": "https://www.fundacioncyd.org/publicaciones-cyd/uso-y-percepcion-de-la-ia-en-el-entorno-universitario-ii/",
+            "author": [
+                {
+                    "family": "CYD",
+                    "given": "Fundación"
+                }
+            ],
+            "id": "fundacion_cyd_uso_2026",
+            "issued": {
+                "date-parts": [
+                    [
+                        2026
+                    ]
+                ]
+            },
+            "title": "Uso y percepción de la IA en el entorno universitario II",
+            "type": "report"
         }
     ],
     "project_biblios": [

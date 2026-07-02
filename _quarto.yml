@@ -10,15 +10,18 @@ book:
     - contexto.qmd
     - propuesta.qmd
     - bibliografia.qmd
+    - anexo.qmd
 
 language:
   es:
     table-title: "Tabla"
     fig-title: "Figura"
     tbl-title: "Tabla"
+    sec-title: "Sección"
     lof-title: "Lista de figuras"
     lot-title: "Lista de tablas"
-
+    sec-prefix: "Sección"
+    
 format:
   pdf:
     classoption:
@@ -31,7 +34,7 @@ format:
     toc: true
     toc-title: "Contenido"
     toc-depth: 3
-    number-sections: true
+
     lof: true
     lot: true
     geometry:

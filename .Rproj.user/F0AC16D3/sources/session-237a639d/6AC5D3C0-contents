@@ -1,0 +1,164 @@
+---
+format:
+  pdf:
+    title-page: false
+
+
+header-includes:
+  - \usepackage{longtable}
+  - \usepackage{multirow}
+  - \usepackage{array}
+  - \usepackage{booktabs}
+  - \usepackage[table]{xcolor}
+  - \usepackage{hyperref}
+  - \usepackage{fontawesome5}
+  - \usepackage{tikz}
+  - \usetikzlibrary{arrows.meta,positioning}
+---
+
+::: {#fig-cronograma_strbio fig-cap="Actividades de la asignatura Bioinformática Estructural. Cronograma ejemplo en el que se detalla la organización de las actividades realizadas durante el último curso (2025-26), así como las fechas de entrega de actividades y evaluación."}
+```{=latex}
+
+\definecolor{bloqueborde}{HTML}{546E7A}
+\definecolor{bloquefondo}{HTML}{F8F9FA}
+\definecolor{evaluafondo}{HTML}{FFF7E6}
+\definecolor{notaborde}{HTML}{D97706}
+\definecolor{notafondo}{HTML}{FFF7E6}
+\definecolor{teoria}{HTML}{6278A4}
+\definecolor{practica}{HTML}{56A37C}
+
+
+\begin{tikzpicture}[
+    font=\sffamily,
+    >=Latex,
+    node distance=8mm,
+    block/.style={
+        draw=bloqueborde,
+        rounded corners=3mm,
+        fill=bloquefondo,
+        text width=10.7cm,
+        align=left,
+        inner sep=4mm
+    },
+    evalblock/.style={
+        draw=notaborde,
+        rounded corners=3mm,
+        fill=evaluafondo,
+        text width=9.8cm,
+        align=left,
+        inner sep=4mm
+    },
+    note/.style={
+        draw=notaborde,
+        rounded corners=2mm,
+        fill=notafondo,
+        text width=6.7cm,
+        align=left,
+        inner sep=3mm,
+        font=\small\sffamily
+    },
+    flow/.style={
+        draw=bloqueborde,
+        -{Latex[length=2.5mm]},
+        line width=0.7pt
+    }
+]
+
+\node[align=center, font=\bfseries\Large\sffamily] (title)
+{Cronograma de Bioinformática Estructural (2025--26)};
+
+\node[block, below=10mm of title] (b1) {%
+\textbf{\large Bloque I -- Modelado de proteínas}
+
+\vspace{1mm}
+\textbf{28/1} \quad CLASES SUSPENDIDAS POR RIESGO DE NIEVE
+
+\vspace{1mm}
+\textbf{4/2} \quad {\color{teoria}\faChalkboardTeacher\ }Presentación de la asignatura.\\
+\quad \quad \quad {\color{teoria}\faChalkboardTeacher\ }Estructura de proteínas\\ 
+\quad \quad \quad {\color{teoria}\faChalkboardTeacher\ }Comparación y clasificación de secuencias y estructuras.\\
+\quad \quad \quad {\color{practica}\faLaptop\ } Ejercicios en clase: estructura de proteínas.
+
+\vspace{1mm}
+\textbf{6/2} \quad {\color{practica}\faLaptop\ } Ejercicios en clase: bases de datos de proteínas.\\
+\quad \quad \quad {\color{teoria}\faChalkboardTeacher\ }Introducción a la biología estructural.\\
+\quad \quad \quad {\color{practica}\faLaptop\ } Inicio Práctica 1: generación de mapas de contacto.\\
+\quad \quad \quad {\color{teoria}\faChalkboardTeacher\ }Aplicaciones informáticas para trabajar con estructuras.\\
+\quad \quad \quad {\color{practica}\faLaptop\ } Tutorial autoguiado de PyMOL.
+
+\vspace{1mm}
+\textbf{11/2  }  {\color{practica}\faLaptop\ \textbf{}} Continuación del tutorial autoguiado de PyMOL.\\
+\quad \quad \quad{\color{teoria}\faChalkboardTeacher\ }Introducción al modelado de proteínas.
+
+\vspace{1mm}
+\textbf{13/2 }  {\color{teoria}\faChalkboardTeacher\ } Modelado computacional de proteínas (II).\\
+\quad \quad \quad {\color{practica}\faLaptop\ \textbf{}} Ejercicios en clase: modelado con SWISS-MODEL.
+
+\vspace{1mm}
+\textbf{18/2 } {\color{teoria}\faChalkboardTeacher\ } Propiedades 1D de las proteínas.
+
+\vspace{1mm}
+\textbf{20/2 } {\color{teoria}\faChalkboardTeacher\ } Métodos avanzados de modelado de proteínas (I).\\
+\quad \quad \quad {\color{practica}\faLaptop\ \textbf{}} Inicio Práctica 2: UAM-CASP.
+
+\vspace{1mm}
+\textbf{25/2 } {\color{teoria}\faChalkboardTeacher\ } Métodos avanzados de modelado de proteínas (II).
+};
+
+\node[note, right=4mm of b1.north east, anchor=north west] (n1) {%
+\textbf{Hitos de Bloque I}
+
+\vspace{1mm}
+\faClipboardCheck\ \textbf{4/3} \quad Entrega inicial P1\\
+\faUsers\ \textbf{13/3} \quad Feedback de peer-review P1\\
+\faClipboardCheck\ \textbf{23/3} \quad Entrega inicial P2-CASP\\
+\faUsers\ \textbf{10/4} \quad Feedback de peer-review P2\\
+\faClipboardCheck\ \textbf{17/4} \quad Entrega final conjunta P1+P2
+};
+
+\node[block, below=8mm of b1] (b2) {%
+\textbf{\large Bloque II -- Docking}
+
+\vspace{1mm}
+\textbf{4/3} \quad Seminario de investigador externo.\\
+\quad \quad \quad {\color{teoria}\faChalkboardTeacher\ }Docking molecular, conceptos básicos y aplicaciones.
+
+\vspace{1mm}
+\textbf{6/3} \quad Seminario de investigador externo.\\
+\quad \quad \quad {\color{practica}\faLaptop\ \textbf{}} Taller práctico de docking.
+
+\vspace{1mm}
+\textbf{11/3 } Seminario de investigador externo.\\
+\quad \quad \quad {\color{practica}\faLaptop\ \textbf{}} Taller práctico de docking.\\
+\quad \quad \quad {\color{teoria}\faChalkboardTeacher\ }Recapitulación y ejemplos adicionales.
+};
+
+\node[note, right=4mm of b2.north east, anchor=north west] (n2) {%
+\textbf{Hito de Bloque II}
+
+\vspace{1mm}
+\faClipboardCheck\ \textbf{7/4} \quad Entrega prácticas docking
+};
+
+\node[block, below=8mm of b2] (b3) {%
+\textbf{\large Sesión final de repaso}
+
+\vspace{1mm}
+\textbf{18/3} \quad Clase de recapitulación y apoyo en las prácticas.
+};
+
+\node[evalblock, below=8mm of b3] (b4) {%
+\textbf{\large Evaluación}
+
+\vspace{1mm}
+\textbf{25/3} \quad Examen teórico.\\
+\textbf{19/5} \quad Publicación de notas finales provisionales.
+};
+
+\draw[flow] (b1.south) -- (b2.north);
+\draw[flow] (b2.south) -- (b3.north);
+\draw[flow] (b3.south) -- (b4.north);
+
+\end{tikzpicture}
+```
+:::
