@@ -1482,6 +1482,102 @@
             },
             "title": "Uso y percepción de la IA en el entorno universitario II",
             "type": "report"
+        },
+        {
+            "DOI": "10.1080/00219266.2026.2628797",
+            "ISSN": "0021-9266",
+            "URL": "https://doi.org/10.1080/00219266.2026.2628797",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2026,
+                        7,
+                        2
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Cotton",
+                    "given": "Peter A."
+                },
+                {
+                    "family": "Cotton",
+                    "given": "Debby R. E."
+                }
+            ],
+            "container-title": "Journal of Biological Education",
+            "id": "cotton_beyond_2026",
+            "issue": "0",
+            "issued": {
+                "date-parts": [
+                    [
+                        2026,
+                        2
+                    ]
+                ]
+            },
+            "note": "_eprint: https://doi.org/10.1080/00219266.2026.2628797",
+            "page": "1-25",
+            "publisher": "Routledge",
+            "title": "Beyond ChatGPT: A review of the use of AI tools in biological education",
+            "title-short": "Beyond ChatGPT",
+            "type": "article-journal",
+            "volume": "0"
+        },
+        {
+            "URL": "https://unesdoc.unesco.org/ark:/48223/pf0000386670_spa",
+            "annote": "Título original: Harnessing the Era of Artificial Intelligence in Higher Education: A Primer for Higher Education Stakeholders",
+            "author": [
+                {
+                    "family": "Liu",
+                    "given": "Bosen Lily"
+                },
+                {
+                    "family": "Morales",
+                    "given": "Diana"
+                },
+                {
+                    "family": "Roser-Chinchilla",
+                    "given": "Jaime Félix"
+                },
+                {
+                    "family": "Sabzalieva",
+                    "given": "Emma"
+                },
+                {
+                    "family": "Valentini",
+                    "given": "Arianna"
+                },
+                {
+                    "family": "Vieira do Nascimento",
+                    "given": "Daniele"
+                },
+                {
+                    "family": "Yerovi",
+                    "given": "Clarisa"
+                }
+            ],
+            "editor": [
+                {
+                    "literal": "UNESCO International Institute for Higher Education in Latin America and the Caribbean"
+                }
+            ],
+            "genre": "Programme and meeting document",
+            "id": "liu_oportunidades_2023",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "page": "92",
+            "publisher": "UNESCO",
+            "publisher-place": "París; Caracas",
+            "title": "Oportunidades y desafíos de la era de la inteligencia artificial para la educación superior: Una introducción para los actores de la educación superior",
+            "title-short": "Oportunidades y desafíos de la era de la inteligencia artificial para la educación superior",
+            "type": "report"
         }
     ],
     "project_biblios": [

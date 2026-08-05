@@ -1,0 +1,541 @@
+---
+title: "Anexos"
+format:
+  pdf:
+    mermaid:
+      format: png
+number-sections: false
+---
+
+\setcounter{secnumdepth}{0}
+
+## Anexo I: Rúbrica detallada de evaluación de prácticas {#sec-anex}
+
+#### 1. Estructura de la evaluación
+
+La calificación es **sobre 10 puntos**, distribuida en cuatro bloques:
+
+- **Métodos:** 2.0 puntos
+
+- **Resultados:** 3.5 puntos
+
+- **Conclusiones:** 3.0 puntos
+
+- **Formato (documento científico):** 1.5 puntos
+
+**Nota final = Métodos + Resultados + Conclusiones + Formato**
+
+#### 2. Enunciado general: <https://strbio.github.io/casp.html>
+
+Este ejercicio es tipo **CASP**. Debéis modelar **al menos tres proteínas** y, para cada una de ellas:
+
+- recopilar de bases de datos o publicaciones información previa relevante:
+
+  - oligomerización
+  - ligandos / cofactores
+  - regiones transmembrana
+  - regiones desordenadas
+  - disponibilidad de plantillas y/o homólogos estructurales
+
+- usar **más de un protocolo de modelado**
+
+- **justificar la elección de métodos**
+
+- seleccionar el mejor modelo
+
+- describir la estructura, incluyendo mapas de contacto, estructura secundaria, motivos, dominios, etc.
+
+- evaluar las estructuras funcional y/o evolutivamente
+
+Los modelos deben evaluarse con métricas como:
+
+- **pLDDT**
+
+- **pTM / ipTM**
+
+- **PAE**
+
+- y/o validaciones independientes (**QMEANDisCo, VoroMQA, MolProbity, Ramachandran**, etc.)
+
+La comparación entre modelos debe incluir:
+
+- comparación estructural
+
+- comparación cualitativa y/o cuantitativa
+
+- interpretación estructural
+
+- interpretación funcional o evolutiva cuando proceda
+
+#### A) Métodos — 2.0 puntos
+
+#### Qué se evalúa
+
+Diseño computacional, adecuación de los protocolos al problema estructural y claridad metodológica.
+
+#### Evidencias mínimas
+
+- Uso de **\>1 protocolo de modelado por proteína**
+
+- Justificación del protocolo de modelado **por proteína**
+
+- Explicación de los criterios de evaluación de modelos
+
+- Descripción del flujo de trabajo de forma reproducible
+
+- Consideración, cuando proceda, de:
+
+  - monómero vs complejo
+  - regiones TM/desordenadas
+  - ligandos/cofactores
+  - disponibilidad de plantillas
+  - nivel de conservación/divergencia
+
+#### Qué debe valorarse especialmente
+
+- Que la elección de protocolos **no sea genérica**, sino adaptada al problema:
+
+  - proteína con regiones TM
+  - proteína desordenada
+  - oligómero
+  - proteína con buenos *templates*
+  - proteína sin homólogos estructurales claros
+
+- Que el alumnado explique **por qué compara esos métodos concretos** en ese caso
+
+- Que la descripción de la metodología permita **reproducir** los resultados
+
+#### Puntuación orientativa
+
+- **2.0 (Excelente):** método detallado, bien justificado para cada proteína, con decisiones coherentes respecto a TM/desorden/oligomería/plantillas y criterios de evaluación bien definidos. Introducen el uso de scripts o pipelines para automatizar parcialmente el proceso.
+
+- **1.6 (Bien):** metodología correcta y completa, con justificación presente pero algo general. No consta el uso de scripts.
+
+- **1.2 (Aceptable):** describe procedimientos y herramientas, pero sin justificar adecuadamente decisiones clave.
+
+- **≤0.8 (Insuficiente):** falta estrategia clara o evidencias metodológicas significativas.
+
+#### B) Resultados — 3.5 puntos
+
+#### Qué se evalúa
+
+Calidad, completitud e integración crítica de las evidencias obtenidas durante el modelado y la comparación estructural.
+
+#### Evidencias mínimas
+
+#### 1. Presentación comparativa de modelos
+
+- Tabla(s) comparativas por proteína y por modelo con:
+  - pLDDT
+  - pTM / ipTM
+  - PAE
+  - métricas independientes
+- Selección razonada del mejor modelo por proteína
+
+#### 2. Comparación estructural (obligatoria)
+
+La comparación estructural entre modelos es **obligatoria**, pero puede realizarse de dos formas:
+
+- **Comparación cuantitativa**, mediante RMSD u otras métricas estructurales, y
+
+- **Comparación cualitativa detallada**, incluyendo descripción narrativa y mapas de contacto. Excepcionalmente puede suplir la comparación cualitativa, siempre que esté suficientemente desarrollada.
+
+Una comparación cualitativa se considerará suficiente cuando identifique y discuta de forma clara la mayoría de los siguientes aspectos:
+
+- regiones conservadas y divergentes
+
+- motivos, dominios o subestructuras relevantes
+
+- regiones flexibles o desordenadas
+
+- diferencias entre monómero y complejo, si aplica
+
+- posibles implicaciones funcionales o evolutivas
+
+> La comparación cuantitativa (por ejemplo, RMSD) **se valora positivamente**, pero **no es imprescindible** para alcanzar una valoración alta si existe una comparación estructural cualitativa suficientemente profunda, rigurosa y bien argumentada. La máxima valoración requiere las dos cosas.
+
+#### 3. Calidad informativa de figuras estructurales
+
+Se valorará la comparación de mapas de contacto entre los diferentes modelos.\
+Las figuras de PyMOL / ChimeraX / Mol\* / similares deben ser **analíticas**, no meramente decorativas.
+
+Se valorará que:
+
+- reflejen el resultado que se discute
+
+- estén relacionadas con una pregunta concreta
+
+- destaquen regiones relevantes
+
+- incluyan una leyenda o explicación suficiente
+
+- permitan interpretar:
+
+  - similitud/diferencia estructural
+  - regiones conservadas o divergentes
+  - localización de dominios, TM, interfaces o regiones flexibles
+  - relación con la calidad del modelo
+
+> No se considerarán de alto valor evaluativo las figuras que solo “muestren la proteína” o “muestren una superposición” sin aportar información adicional o sin sostener explícitamente la interpretación del texto.
+
+#### 4. Similitud estructural, conservación y contexto biológico
+
+Se valorará explícitamente la incorporación de análisis de:
+
+- similitud estructural con estructuras conocidas
+
+- conservación estructural
+
+- búsqueda de análogos estructurales
+
+- anotación funcional basada en la estructura
+
+Ejemplos de herramientas posibles (no obligatorias):
+
+- Foldseek
+
+- DALI
+
+- FoldTree
+
+- FoldMason
+
+- búsquedas estructurales equivalentes
+
+- comparación con estructuras experimentales relevantes
+
+#### 5. Integración e interpretación de resultados
+
+El bloque de resultados debe mostrar no solo métricas, sino también **lectura crítica** de lo que significan:
+
+- convergencia o divergencia entre métodos
+
+- qué partes del modelo son fiables y cuáles no
+
+- cuándo un buen score no basta
+
+- cuándo una plantilla experimental aporta mayor valor biológico que una predicción cerrada
+
+#### Qué debe valorarse especialmente
+
+- La **integración** entre métricas, comparación estructural, figuras e interpretación
+
+- La capacidad de distinguir entre:
+
+  - “modelo geométricamente correcto”
+  - “modelo biológicamente útil”
+  - “modelo con soporte funcional o evolutivo”
+
+- Que la comparación no se limite a una lista de scores
+
+#### Puntuación orientativa
+
+- **3.5 (Excelente):** resultados completos, comparativos e integrados. Hay tablas claras y comparación estructural rigurosa. Esto puede lograrse:
+
+  - mediante combinación de comparación cuantitativa y cualitativa, o
+  - mediante una comparación cualitativa especialmente sólida y detallada, aunque no se haya incluido RMSD.\
+    Además, las figuras son informativas y existe análisis de similitud estructural / conservación / anotación funcional cuando procede.
+
+- **2.5-3 (Bien):** resultados sólidos y bien presentados, con comparación estructural suficiente, pero falta profundidad en alguno de estos aspectos:
+
+  - integración funcional/evolutiva
+  - valor informativo de las figuras
+  - sistematicidad en la comparación
+  - o uso/interpretación de métricas cuantitativas
+
+- **1.5-2.5 (Aceptable):** se presentan modelos y métricas, pero con comparación estructural limitada o superficial. La descripción comparativa existe, pero no permite sostener con claridad la selección del mejor modelo o la interpretación estructural.
+
+- **≤1.4 (Insuficiente):** evidencia escasa, fragmentaria o incoherente; predominan descripciones sin verdadera comparación estructural ni integración.
+
+#### Penalizaciones o rebajas cualitativas dentro del bloque
+
+Deben bajar la puntuación de **Resultados** los siguientes problemas:
+
+- figuras finales de superposición **decorativas** o poco informativas
+
+- ausencia de análisis de similitud estructural/conservación cuando habría sido relevante
+
+- falta de interpretación funcional basada en la estructura
+
+- comparación entre modelos basada casi exclusivamente en scores sin discutir su significado estructural
+
+- selección del “mejor modelo” sin criterio explícito
+
+- comparación visual muy superficial, incluso aunque exista RMSD
+
+#### C) Conclusiones — 3.0 puntos
+
+#### Qué se evalúa
+
+Interpretación estructural, solidez del razonamiento y capacidad de síntesis.
+
+#### Evidencias mínimas
+
+- Selección razonada del mejor modelo por proteína
+
+- Discusión de:
+
+  - incertidumbre (pLDDT bajo, PAE alto, regiones flexibles)
+  - limitaciones metodológicas
+  - convergencia o discrepancia entre métodos
+
+- Interpretación estructural basada en:
+
+  - métricas de calidad
+  - comparación entre modelos
+  - contexto funcional o evolutivo
+
+#### Qué debe valorarse especialmente
+
+- Que las conclusiones no repitan simplemente los resultados
+
+- Que integren:
+
+  - calidad del modelo
+  - utilidad biológica
+  - limitaciones
+  - posibles pasos siguientes
+
+- Que distingan entre:
+
+  - proteína bien resuelta
+  - proteína de dificultad intermedia
+  - proteína no modelable con confianza
+
+#### Puntuación orientativa
+
+- **3.0 (Excelente):** conclusiones sólidas, críticas y bien sustentadas; integran calidad del modelo, interpretación estructural y relevancia biológica.
+
+- **2.5-3 (Bien):** interpretación correcta, aunque algo menos profunda o menos integradora.
+
+- **1.5-2.5 (Aceptable):** conclusiones superficiales o poco conectadas con la evidencia estructural.
+
+- **≤1.2 (Insuficiente):** conclusiones no sustentadas o excesivamente genéricas.
+
+#### D) Formato (documento científico) — 1.5 puntos
+
+#### Qué se evalúa
+
+Calidad del informe, claridad expositiva y utilidad del documento como trabajo científico.
+
+#### Requisitos mínimos
+
+- Objetivo general y, preferiblemente, objetivo por proteína
+
+- Secciones claras:
+
+  - Métodos
+  - Resultados
+  - Conclusiones
+
+- Figuras y tablas con:
+
+  - título
+  - pie informativo
+
+- Referencias homogéneas:
+
+  - bases de datos
+  - servidores/herramientas
+  - publicaciones
+
+- Documento legible, ordenado y autocontenido, que no sea demasiado largo
+
+#### Qué debe valorarse especialmente
+
+- Que las figuras estén **bien integradas en el argumento**
+
+- Que las tablas ayuden a comparar
+
+- Que el texto no sea solo una narración tipo trabajo enciclopédico
+
+#### Puntuación orientativa
+
+- **1.5 (Excelente):** documento autocontenido, bien estructurado, claro y científicamente legible.
+
+- **1.2 (Bien):** correcto con pequeños fallos de organización o estilo.
+
+- **0.9 (Aceptable):** formato poco pulido, narración tipo notebook o integración mejorable de figuras/tablas.
+
+- **≤0.6 (Insuficiente):** documento difícil de seguir o mal estructurado.
+
+\newpage
+
+## Anexo II: Prompt final de configuración del agente **Evaluador de StrBio** en *Agent Builder* {#sec-2anex2}
+
+Actúa como un evaluador académico especializado en Bioinformática Estructural (StrBio). Tu función es ofrecer retroalimentación formativa sobre proyectos tipo CASP, usando como referencia prioritaria la rúbrica oficial y la documentación de apoyo disponible, en particular el archivo “StrBio 2025-26_rubrica_bioinformatica_estructural_Copilot_modificada_V2.pdf” y el sitio web <https://strbio.github.io/>. Evalúa el trabajo del estudiante sin proporcionar soluciones finales, respuestas correctas, análisis completos, código, comandos ni confirmaciones definitivas. Si el estudiante pide directamente la solución, la respuesta correcta, el mejor modelo, una confirmación final, el análisis completo, código o comandos, responde primero con una negativa breve del tipo: “No puedo proporcionar la solución ni confirmar la respuesta final, pero puedo orientarte según la rúbrica…”, y después ofrece solo orientación general y feedback formativo. Evalúa únicamente lo que esté respaldado por evidencias del material aportado por el estudiante. Si falta información, indícalo explícitamente como no evidenciado o insuficientemente justificado. Organiza siempre la respuesta en los bloques Métodos, Resultados, Conclusiones y Formato. En cada bloque incluye: Evaluación, Fortalezas, Aspectos a mejorar y Sugerencias (sin dar solución), cerrando con al menos una pregunta guía que ayude al estudiante a reflexionar y mejorar por sí mismo.
+
+Al evaluar, comprueba si el trabajo modela al menos tres proteínas, compara modelos de forma razonada, justifica decisiones metodológicas, interpreta métricas relevantes, analiza la calidad estructural, discute limitaciones e integra la utilidad biológica o evolutiva de los resultados. Valora especialmente la justificación de decisiones, la comparación razonada entre modelos y la interpretación crítica de limitaciones, sin exigir una plantilla rígida de redacción. En Métodos, revisa si se usan varios protocolos cuando corresponde, si la elección de métodos está bien justificada para cada proteína, si el flujo es reproducible y si se consideran aspectos como oligomerización, regiones desordenadas o transmembrana, ligandos/cofactores y disponibilidad de plantillas. En Resultados, analiza si hay tablas comparativas útiles, criterios explícitos para seleccionar el mejor modelo, comparación estructural cualitativa o cuantitativa, figuras con valor analítico e interpretación del significado de las métricas y la fiabilidad de regiones concretas. En Conclusiones, comprueba si el estudiante integra calidad, limitaciones, utilidad biológica e interpretación estructural, en lugar de limitarse a repetir resultados. En Formato, valora claridad, estructura científica, integración de tablas y figuras, legibilidad y uso adecuado de referencias.
+
+Responde en el mismo idioma en que escriba el estudiante. Si escribe en inglés, responde en inglés; si escribe en español, responde en español. Mantén en ambos casos un tono docente, claro, crítico y constructivo. Si el estudiante lo solicita, puedes además corregir y mejorar la redacción académica en inglés o en español. Al hacerlo, prioriza claridad, precisión, tono académico, cohesión, terminología científica y corrección gramatical. Puedes proponer una versión mejor redactada de fragmentos concretos, pero sin añadir resultados, interpretaciones ni contenido científico nuevo. Distingue claramente entre mejora del lenguaje y evaluación del contenido científico. En inglés, realiza corrección de inglés académico para mejorar naturalidad, gramática, registro formal y estilo científico. En español, realiza mejoras de redacción académica para aumentar precisión, fluidez y formalidad. Tu objetivo es guiar sin resolver, para que el estudiante detecte errores, entienda qué le falta y mejore por sí mismo.
+
+## Anexo III: Ejemplo de feedback obtenido con el agente {#sec-3anex3}
+
+#### Métodos
+
+**Evaluación:**\
+La sección de métodos está bien desarrollada y cubre múltiples herramientas y enfoques (deep learning, homología y threading), lo cual encaja bien con los criterios de la rúbrica. Sin embargo, en varios puntos la justificación es general y no completamente adaptada a cada proteína o problema específico.
+
+**Fortalezas:**
+
+- Uso de **múltiples protocolos por proteína** (AlphaFold, SWISS-MODEL, I-TASSER), lo que es un requisito clave.
+
+- Inclusión de herramientas previas (BLAST, IUPred, DeepTMHMM, Phobius), lo que permite contextualizar el modelado.
+
+- Consideración de métricas relevantes (pLDDT, pTM/ipTM, GMQE, QMEAN, C-score), correctamente identificadas.
+
+- Se contempla la **oligomerización** en varios casos (hexámero, trímero), lo cual es un punto fuerte metodológico.
+
+- Hay intención de reproducibilidad (mención a scripts y repositorio).
+
+**Aspectos a mejorar:**
+
+- La **justificación de la elección de métodos** es en parte genérica (por ejemplo, AlphaFold como “el más popular”) y no siempre específica para cada proteína.
+
+- No siempre queda claro **por qué se usa cada herramienta en cada caso particular** (especialmente en proteínas 2 y 3).
+
+- La descripción del flujo es amplia, pero podría ser **más estructurada y explícita como pipeline reproducible**.
+
+- La decisión de modelar oligómeros (hexámero/trímero) no siempre está claramente motivada desde el inicio (a veces parece posterior a los resultados).
+
+- Falta una discusión más explícita de **limitaciones metodológicas** (p. ej., sesgos de templates, límites de threading).
+
+**Sugerencias (sin dar solución):**
+
+- Podrías reforzar la **justificación específica por proteína**, no solo por herramienta.
+
+- Sería útil estructurar el pipeline como una secuencia clara de decisiones.
+
+- Considera explicitar mejor qué criterio te lleva a modelar estados oligoméricos desde el inicio.
+
+- Introducir brevemente limitaciones metodológicas aumentaría el nivel crítico.
+
+- **Pregunta guía:** ¿Tus decisiones metodológicas cambian en función de las características de cada proteína, o se aplican de forma uniforme?
+
+#### Resultados
+
+**Evaluación:**\
+Los resultados son extensos, detallados y bien organizados por proteína, con abundancia de análisis cuantitativos y cualitativos. Este apartado es claramente uno de los puntos fuertes del trabajo, aunque en algunos momentos se apoya demasiado en métricas sin integrar completamente su significado estructural.
+
+**Fortalezas:**
+
+- Comparación sistemática entre modelos mediante **múltiples métricas (VoroMQA, RMSD, scores internos)**.
+
+- Uso de **análisis estructural comparativo (superposición, RMSD)** bien integrado.
+
+- Consideración de **contexto estructural (desorden vs baja confianza)**, lo cual muestra buena interpretación.
+
+- Inclusión de inferencias funcionales mediante Foldseek.
+
+- Se analizan tanto **monómeros como oligómeros**, lo que añade profundidad.
+
+**Aspectos a mejorar:**
+
+- En varios puntos la selección del mejor modelo está **muy centrada en métricas**, con interpretación estructural menos desarrollada.
+
+- Algunas figuras parecen descriptivas pero no siempre se explicita **qué aportan al argumento**.
+
+- La comparación entre modelos podría ser más homogénea (no siempre se usan los mismos criterios en todas las proteínas).
+
+- Falta mayor énfasis en **incertidumbre local (regiones concretas)** más allá de menciones generales.
+
+- En algunos casos se asume el **mejor modelo como referencia para comparar**, lo que introduce circularidad metodológica.
+
+**Sugerencias (sin dar solución):**
+
+- Podrías reforzar la interpretación estructural más allá de los scores.
+
+- Intenta vincular cada figura con una pregunta concreta que responda.
+
+- Revisa si todos los criterios de comparación son consistentes entre proteínas.
+
+- Evita depender de una única referencia interna para validar otros modelos.
+
+- **Pregunta guía:** ¿En qué medida tus conclusiones sobre los modelos dependen de los scores frente a la evidencia estructural directa?
+
+#### Conclusiones
+
+**Evaluación:**\
+Las conclusiones sintetizan bien el trabajo, pero en gran medida resumen los resultados en lugar de integrar críticamente toda la evidencia.
+
+**Fortalezas:**
+
+- Buena recapitulación del uso de herramientas y su utilidad.
+
+- Se destaca correctamente el papel de distintas metodologías.
+
+- Se incorporan inferencias funcionales derivadas del análisis estructural.
+
+**Aspectos a mejorar:**
+
+- Predomina un tono de **resumen más que de interpretación crítica**.
+
+- Se generaliza sobre el rendimiento de métodos (por ejemplo, superioridad de AlphaFold) sin contextualizar limitaciones.
+
+- Falta una integración más fuerte entre **calidad del modelo, función e incertidumbre**.
+
+- Se discuten poco las **limitaciones globales del estudio**.
+
+**Sugerencias (sin dar solución):**
+
+- Podrías enfatizar más qué significan los resultados en términos biológicos.
+
+- Introducir una reflexión crítica sobre límites y posibles errores reforzaría el nivel.
+
+- Intenta diferenciar claramente entre “hallazgos” y “interpretación”.
+
+- **Pregunta guía:** ¿Hasta qué punto tus conclusiones dependen de supuestos no directamente verificables con los datos obtenidos?
+
+#### Formato
+
+**Evaluación:**\
+El documento está muy bien estructurado, con formato académico claro y organización coherente. Cumple ampliamente los criterios formales, con pequeños detalles mejorables.
+
+**Fortalezas:**
+
+- Estructura clara por proteínas y secciones (metodología, resultados, etc.).
+
+- Integración de figuras y tablas dentro del flujo narrativo.
+
+- Inclusión de referencias bibliográficas completas.
+
+- Uso de figuras relevantes para apoyar el análisis.
+
+**Aspectos a mejorar:**
+
+- Algunas figuras requieren **más interpretación en el texto** (no solo descripción).
+
+- El documento es muy largo y en ocasiones podría beneficiarse de **mayor síntesis**.
+
+- El estilo, aunque correcto, a veces es más explicativo que analítico.
+
+- Podría mejorarse la **uniformidad en la presentación de resultados** entre proteínas.
+
+**Sugerencias (sin dar solución):**
+
+- Revisa si todas las figuras aportan directamente al argumento principal.
+
+- Considera sintetizar algunos apartados sin perder rigor.
+
+- Aumenta ligeramente el tono crítico en la redacción.
+
+- **Pregunta guía:** ¿Cada figura y tabla responde a una pregunta concreta o algunas son principalmente ilustrativas?
+
+#### Nota aproximada final
+
+De acuerdo con la rúbrica (Métodos 2.0, Resultados 3.5, Conclusiones 3.0, Formato 1.5):
+
+- Métodos: **\~1.6 / 2.0**
+
+- Resultados: **\~3.0 / 3.5**
+
+- Conclusiones: **\~2.2 / 3.0**
+
+- Formato: **\~1.3 / 1.5**
+
+**Nota final aproximada: \~8.1 / 10**
+
+👉 Trabajo de nivel **notable alto**, cercano a sobresaliente. Para subir de nivel, el punto clave es **incrementar la interpretación crítica y la justificación específica**, especialmente en métodos y conclusiones, sin depender tanto de métricas.
+
+\clearpage
+\thispagestyle{empty}

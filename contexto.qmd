@@ -339,9 +339,6 @@ El SET se configura, por tanto, como un documento complementario al título ofic
 
 ### El sistema europeo de transferencia de créditos {#sec-ECTS}
 
-La generación de una unidad de medida académica para todos los estudiantes es un objetivo fundamental para la creación del EEES, de forma que el trabajo desarrollado por un estudiante en cualquiera de las universidades de los estados miembros sea fácilmente reconocible en cuanto a nivel, calidad y relevancia. Es por ello por lo que se crea el sistema de créditos europeos, conocido como ECTS (European Credits Transfer System), que nace y se desarrolla con los programas de movilidad de estudiantes para dar una respuesta a la necesidad de encontrar un sistema de equivalencias y de reconocimiento de los estudios cursados en otros países. Su introducción en el sistema universitario español implica importantes diferencias con respecto al crédito vigente. Así, el crédito europeo debe quedar definido como la unidad de valoración de la actividad académica en la que se integran las enseñanzas teóricas y prácticas, así como otras actividades académicas dirigidas y el volumen de trabajo que el estudiante debe realizar para alcanzar los objetivos educativos [@europeancommission2015].
-
-Dicho de otra forma, el crédito ECTS se define a partir del volumen total de trabajo del estudiante necesario para alcanzar los resultados del aprendizaje, integrando tanto actividades presenciales como autónomas y situando al profesorado como responsable del diseño, organización y seguimiento del proceso formativo (@fig-ECTS). En este sentido supone un cambio de paradigma en el modelo educativo, no centrado en las horas presenciales sino centrado en el aprendizaje.
 
 ::: {#fig-ECTS fig-cap="Descripción esquemática del ECTS."}
 ```{mermaid}
@@ -383,6 +380,11 @@ flowchart LR
 ```
 :::
 
+La generación de una unidad de medida académica para todos los estudiantes es un objetivo fundamental para la creación del EEES, de forma que el trabajo desarrollado por un estudiante en cualquiera de las universidades de los estados miembros sea fácilmente reconocible en cuanto a nivel, calidad y relevancia. Es por ello por lo que se crea el sistema de créditos europeos, conocido como ECTS (European Credits Transfer System), que nace y se desarrolla con los programas de movilidad de estudiantes para dar una respuesta a la necesidad de encontrar un sistema de equivalencias y de reconocimiento de los estudios cursados en otros países. Su introducción en el sistema universitario español implica importantes diferencias con respecto al crédito vigente. Así, el crédito europeo debe quedar definido como la unidad de valoración de la actividad académica en la que se integran las enseñanzas teóricas y prácticas, así como otras actividades académicas dirigidas y el volumen de trabajo que el estudiante debe realizar para alcanzar los objetivos educativos [@europeancommission2015].
+
+Dicho de otra forma, el crédito ECTS se define a partir del volumen total de trabajo del estudiante necesario para alcanzar los resultados del aprendizaje, integrando tanto actividades presenciales como autónomas y situando al profesorado como responsable del diseño, organización y seguimiento del proceso formativo (@fig-ECTS). En este sentido supone un cambio de paradigma en el modelo educativo, no centrado en las horas presenciales sino centrado en el aprendizaje.
+
+
 Las programaciones de cada una de las materias que conformen el plan de estudios de una titulación oficial deberán acogerse a esta unidad de medida integrando en la asignación de los créditos que a cada una le correspondan, las clases docentes teóricas y prácticas, la preparación y realización de exámenes, horas de estudio que precisen, y los trabajos que los alumnos deban realizar para alcanzar los objetivos formativos de dichas materias, y todo deberá estar plasmado en la Guía Docente disponible para los alumnos. Asimismo, en el proceso de enseñanza-aprendizaje se enfatizan las metodologías basadas en el autoaprendizaje del alumno (el alumno debe “aprender a aprender”) para favorecer la adquisición no solo de conocimientos, sino de habilidades y competencias.
 
 Con respecto a las calificaciones, el Real Decreto 1125/2003 define el sistema de calificaciones con el objetivo de facilitar su comparabilidad en el ámbito europeo. Este establece que los resultados obtenidos por el estudiante en cada una de las materias del plan de estudios se expresarán en una escala numérica de 0 a 10, a la que podrá añadirse su correspondiente calificación cualitativa:
@@ -402,8 +404,8 @@ En conclusión, el sistema ECTS no solo permite cuantificar la carga de trabajo 
 
 ::: {#fig-meces fig-cap="Esquema que resume la organización de los estudios Universitarios según el EEES." fig-pos="H"}
 ```{mermaid}
-%%| fig-width: 4
-%%| out-width: 35%
+%%| fig-width: 3
+%%| out-width: 25%
 %%| fig-pos: H
 
 flowchart TB
@@ -688,6 +690,12 @@ En el ámbito de la investigación y la innovación, la UAM obtuvo en 2024 un to
 
 Según se detalla en la página web de la Oficina de Análisis y Planificación de la UAM (<https://www.uam.es/uam/oficina-analisis-planificacion>), la Universidad Autónoma de Madrid mantiene un posicionamiento consolidado en los principales rankings universitarios internacionales, situándose de forma sostenida en rangos competitivos a nivel global y entre las universidades mejor posicionadas de España.
 
+Los resultados obtenidos en clasificaciones como QS, Times Higher Education o ARWU, junto con rankings específicos por disciplinas, empleabilidad o transferencia, reflejan una combinación de factores que incluyen la reputación académica, la intensidad investigadora, la proyección internacional y la calidad de la oferta formativa.
+
+En la @tbl-rankings-uam se recogen los valores actualizados a julio de 2026 de algunos de los principales rankings nacionales e internacionales. No obstante, estos datos deben interpretarse como una referencia puntual correspondiente a las ediciones más recientes de cada ranking, estando sujetos a variaciones anuales y diferencias metodológicas. Por ello, su lectura más adecuada es agregada, atendiendo a la consistencia global del posicionamiento institucional.
+
+En este contexto, la UAM presenta una doble fortaleza: por un lado, un sólido posicionamiento institucional; por otro, una presencia especialmente destacada en rankings por materias, donde diversas disciplinas se sitúan entre las mejor valoradas a nivel internacional. Este aspecto resulta especialmente relevante, al evidenciar no solo prestigio global, sino también excelencia académica en áreas concretas de conocimiento, particularmente en el ámbito científico y biomédico.
+
 ::: landscape
 ```{=latex}
 
@@ -825,11 +833,7 @@ Puesto 257 a nivel mundial.
 ```
 :::
 
-Los resultados obtenidos en clasificaciones como QS, Times Higher Education o ARWU, junto con rankings específicos por disciplinas, empleabilidad o transferencia, reflejan una combinación de factores que incluyen la reputación académica, la intensidad investigadora, la proyección internacional y la calidad de la oferta formativa.
 
-En la @tbl-rankings-uam se recogen los valores actualizados a julio de 2026 de algunos de los principales rankings nacionales e internacionales. No obstante, estos datos deben interpretarse como una referencia puntual correspondiente a las ediciones más recientes de cada ranking, estando sujetos a variaciones anuales y diferencias metodológicas. Por ello, su lectura más adecuada es agregada, atendiendo a la consistencia global del posicionamiento institucional.
-
-En este contexto, la UAM presenta una doble fortaleza: por un lado, un sólido posicionamiento institucional; por otro, una presencia especialmente destacada en rankings por materias, donde diversas disciplinas se sitúan entre las mejor valoradas a nivel internacional. Este aspecto resulta especialmente relevante, al evidenciar no solo prestigio global, sino también excelencia académica en áreas concretas de conocimiento, particularmente en el ámbito científico y biomédico.
 
 ### El Sistema Interno de Garantía de Calidad y la evaluación de la docencia en la UAM {#sec-sigc}
 
@@ -883,7 +887,7 @@ El Departamento de Bioquímica (<https://www.bq.uam.es/>) de la UAM se encuentra
 
 El Departamento de Bioquímica de la Facultad de Medicina está intrínsecamente vinculado al Centro Mixto UAM-CSIC Instituto de Investigaciones Biomédicas “Sols-Morreale” (IIB). Si bien el convenio marco actual recoge que pueden adscribirse al centro mixto investigadores de la Facultad de Medicina, por motivos históricos la práctica totalidad de los investigadores de la UAM en el IIB pertenecen, salvo excepciones, al Departamento de Bioquímica. En el Proyecto de Investigación que acompaña a este documento se describe en más detalle la relación del Departamento de Bioquímica con el IIB y el entorno de investigación en el que se integra el candidato.
 
-El Departamento desempeña una amplia y relevante labor docente, participando en diferentes Grados y programas oficiales de Posgrado. Como se ha comentado, el Departamento de Bioquímica se creó con la puesta en marcha de la Facultad de Medicina, comenzando sus actividades con la enseñanza de la Bioquímica en la licenciatura en Medicina a partir del curso 1969-70 y encargándose más tarde también de la Biofísica. Durante estos más de 50 años, la actividad docente del Departamento ha sufrido una importante transformación y expansión, paralela al desarrollo de nuevos métodos y avances en biología molecular, y a la propia consolidación y crecimiento de la UAM. Como se detalla a continuación, (@tbl-docencia_bq), el Departamento participa en la docencia de 6 grados (Medicina, Bioquímica, Nutrición Humana y Dietética, Ingeniería Biomédica, Doble Grado en Nutrición Humana y Dietética y Ciencia y Tecnología de los Alimentos y Enfermería) y 6 Másteres (Biomoléculas y Dinámica Celular, Biomedicina Molecular, Biotecnología, Bioinformática y Biología Computacional, Física de la Materia Condensada y de los Sistemas Biológicos y Neurociencias), imparte un total de 60 asignaturas a más de 1500 alumnos; y además está implicado, junto con el IIBM, en la formación práctica de los estudiantes de Grado, Posgrado y Doctorado, acogiendo y tutorizando alumnos en los laboratorios del Centro Mixto, con el fin de que lleven a cabo sus Trabajos Fin de Grado (Medicina, Bioquímica y Nutrición Humana y Dietética), Fin de Máster y Tesis Doctoral.
+
 
 ```{=latex}
 \begin{longtable}{p{0.15\textwidth}p{0.70\textwidth}>{\centering\arraybackslash}p{0.09\textwidth}}
@@ -964,6 +968,8 @@ El Departamento desempeña una amplia y relevante labor docente, participando en
 
 \end{longtable}
 ```
+
+El Departamento desempeña una amplia y relevante labor docente, participando en diferentes Grados y programas oficiales de Posgrado. Como se ha comentado, el Departamento de Bioquímica se creó con la puesta en marcha de la Facultad de Medicina, comenzando sus actividades con la enseñanza de la Bioquímica en la licenciatura en Medicina a partir del curso 1969-70 y encargándose más tarde también de la Biofísica. Durante estos más de 50 años, la actividad docente del Departamento ha sufrido una importante transformación y expansión, paralela al desarrollo de nuevos métodos y avances en biología molecular, y a la propia consolidación y crecimiento de la UAM. Como se detalla a continuación, (@tbl-docencia_bq), el Departamento participa en la docencia de 6 grados (Medicina, Bioquímica, Nutrición Humana y Dietética, Ingeniería Biomédica, Doble Grado en Nutrición Humana y Dietética y Ciencia y Tecnología de los Alimentos y Enfermería) y 6 Másteres (Biomoléculas y Dinámica Celular, Biomedicina Molecular, Biotecnología, Bioinformática y Biología Computacional, Física de la Materia Condensada y de los Sistemas Biológicos y Neurociencias), imparte un total de 60 asignaturas a más de 1500 alumnos; y además está implicado, junto con el IIBM, en la formación práctica de los estudiantes de Grado, Posgrado y Doctorado, acogiendo y tutorizando alumnos en los laboratorios del Centro Mixto, con el fin de que lleven a cabo sus Trabajos Fin de Grado (Medicina, Bioquímica y Nutrición Humana y Dietética), Fin de Máster y Tesis Doctoral.
 
 ### Estudios de Grado en el Departamento de Bioquímica
 
@@ -1362,6 +1368,8 @@ Los resultados del aprendizaje se definen en la memoria de verificación del tí
 
 [^contexto-4]: Impreso de solicitud de Modificación del MUBBC 2024 en la web de la UAM: <https://acredita.uam.es/es/descarga_documento_subido/1451>
 
+\clearpage
+
 ::: {#tbl-MUBBC}
 ```{=latex}
 \begin{longtable}{
@@ -1410,13 +1418,8 @@ CM6 & Analizar y gestionar información con razonamiento crítico en bioinformá
 ```
 :::
 
-Como se muestra en la @fig-g3, se trata de un título con una gran demanda, con un promedio de más de 5 solicitudes por cada una de las 30 plazas ofertadas. Esto permite la selección de estudiantes con formación y motivación altas, lo que redunda en una tasas de rendimiento (créditos superados con el total de créditos matriculados) y éxito (proporción de créditos superados sobre los créditos presentados) superiores al 95%. La satisfacción entre los estudiantes es alta, con un claro descenso en los años de la pandemia de la COVID-19 y debido a incidentes puntuales por falta de profesorado en una asignatura (2022-23), que se están claramente recuperando en el último curso. Cabe también destacar la alta empleabilidad del título, con casi el 90% de los egresados trabajando en el primer año según los datos de la UAM hasta 2024.
+\vspace{11mm}
 
-Por último, como reflejo de la calidad de la enseñanza impartida y en el contexto nacional caracterizado como se ha comentado por una oferta cada vez más amplia de enseñanzas oficiales en bioinformática y biología computacional en España, tanto en universidades públicas como privadas, y particularmente intensificada en los últimos años por la incorporación de nuevos títulos en el ámbito privado, el MUBBC ha sido recientemente el primer Máster oficial de Bioinformática en España que ha sido acreditado por la Sociedad Internacional de Biología Computacional (ISCB).[^contexto-5] Este programa de acreditación permite certificar aquellos programas que cumplen con los estándares educativos de la ISCB en bioinformática y biología computacional. La certificación garantiza a los futuros estudiantes que el programa ha sido rigurosamente revisado y se ajusta a los estándares profesionales, reforzando su credibilidad y prestigio internacional. La solicitud para esta acreditación fue preparada por la Coordinación del Máster, con la colaboración de varios profesores de la Facultad y el asesoramiento de Enrique Carrillo, Profesor Asociado del Máster entre los años 2017-2026 y en ese momento vocal de Docencia en la Sociedad Española de Bioinformática y Biología Computacional (SEBiBC).
-
-[^contexto-5]: *Degree-Granting Endorsement Program* de la *International Society for Computational Biology* (ISCB): <https://www.iscb.org/nucleus/education-and-training-resources/iscb-degree-granting-endorsement-program> \newline
-
-    Más información: <https://www.uam.es/medicina/facultad/noticias/acreditacion-iscb-del-master-en-bioinformatica-y-bioogia-computacional-de-la-uam>
 
 ```{R }
 #| echo: FALSE
@@ -1426,7 +1429,7 @@ Por último, como reflejo de la calidad de la enseñanza impartida y en el conte
 #| fig-cap: "Evolución de la demanda (A), tasas de rendimiento y éxito (B), satisfacción (C) y la empleabilidad de los egresados del Máster en Bioinformática y Biología Computacional de la UAM. (D). Fuente: UAMData."
 #| fig-height: 8
 #| fig-width: 8
-#| fig-pos: H
+
 
 #Paquetes
 library(readxl)
@@ -1538,6 +1541,18 @@ ggarrange(g1,g2,g4,g3, labels="AUTO")
 
 
 ```
+
+\clearpage
+
+Como se muestra en la @fig-g3, se trata de un título con una gran demanda, con un promedio de más de 5 solicitudes por cada una de las 30 plazas ofertadas. Esto permite la selección de estudiantes con formación y motivación altas, lo que redunda en una tasas de rendimiento (créditos superados con el total de créditos matriculados) y éxito (proporción de créditos superados sobre los créditos presentados) superiores al 95%. La satisfacción entre los estudiantes es alta, con un claro descenso en los años de la pandemia de la COVID-19 y debido a incidentes puntuales por falta de profesorado en una asignatura (2022-23), que se están claramente recuperando en el último curso. Cabe también destacar la alta empleabilidad del título, con casi el 90% de los egresados trabajando en el primer año según los datos de la UAM hasta 2024.
+
+Por último, como reflejo de la calidad de la enseñanza impartida y en el contexto nacional caracterizado como se ha comentado por una oferta cada vez más amplia de enseñanzas oficiales en bioinformática y biología computacional en España, tanto en universidades públicas como privadas, y particularmente intensificada en los últimos años por la incorporación de nuevos títulos en el ámbito privado, el MUBBC ha sido recientemente el primer Máster oficial de Bioinformática en España que ha sido acreditado por la Sociedad Internacional de Biología Computacional (ISCB).[^contexto-5] Este programa de acreditación permite certificar aquellos programas que cumplen con los estándares educativos de la ISCB en bioinformática y biología computacional. La certificación garantiza a los futuros estudiantes que el programa ha sido rigurosamente revisado y se ajusta a los estándares profesionales, reforzando su credibilidad y prestigio internacional. La solicitud para esta acreditación fue preparada por la Coordinación del Máster, con la colaboración de varios profesores de la Facultad y el asesoramiento de Enrique Carrillo, Profesor Asociado del Máster entre los años 2017-2026 y en ese momento vocal de Docencia en la Sociedad Española de Bioinformática y Biología Computacional (SEBiBC).
+
+[^contexto-5]: *Degree-Granting Endorsement Program* de la *International Society for Computational Biology* (ISCB): <https://www.iscb.org/nucleus/education-and-training-resources/iscb-degree-granting-endorsement-program> \newline
+
+    Más información: <https://www.uam.es/medicina/facultad/noticias/acreditacion-iscb-del-master-en-bioinformatica-y-bioogia-computacional-de-la-uam>
+
+
 
 ### Doctorado: El Programa de Doctorado en Biociencias Moleculares.
 

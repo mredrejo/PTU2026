@@ -16,149 +16,121 @@ header-includes:
   - \usetikzlibrary{arrows.meta,positioning}
 ---
 
-::: {#fig-cronograma_strbio fig-cap="Actividades de la asignatura Bioinformática Estructural. Cronograma ejemplo en el que se detalla la organización de las actividades realizadas durante el último curso (2025-26), así como las fechas de entrega de actividades y evaluación."}
 ```{=latex}
 
-\definecolor{bloqueborde}{HTML}{546E7A}
-\definecolor{bloquefondo}{HTML}{F8F9FA}
-\definecolor{evaluafondo}{HTML}{FFF7E6}
-\definecolor{notaborde}{HTML}{D97706}
-\definecolor{notafondo}{HTML}{FFF7E6}
-\definecolor{teoria}{HTML}{6278A4}
-\definecolor{practica}{HTML}{56A37C}
+\begin{longtable}{p{3cm} p{11.5cm}} \caption[Principales hitos en el EEES]{Principales hitos en la instauración y desarrollo del Espacio Europeo de Educación Superior (EEES). Fuente: \protect\url{https://ehea.info/}.\label{tbl-EEES}}\\
 
+\rowcolors{2}{lightgray}{white}
+\toprule
+\textbf{Año y lugar} & \textbf{Hitos principales} \\
+\midrule
+\endfirsthead
 
-\begin{tikzpicture}[
-    font=\sffamily,
-    >=Latex,
-    node distance=8mm,
-    block/.style={
-        draw=bloqueborde,
-        rounded corners=3mm,
-        fill=bloquefondo,
-        text width=10.7cm,
-        align=left,
-        inner sep=4mm
-    },
-    evalblock/.style={
-        draw=notaborde,
-        rounded corners=3mm,
-        fill=evaluafondo,
-        text width=9.8cm,
-        align=left,
-        inner sep=4mm
-    },
-    note/.style={
-        draw=notaborde,
-        rounded corners=2mm,
-        fill=notafondo,
-        text width=6.7cm,
-        align=left,
-        inner sep=3mm,
-        font=\small\sffamily
-    },
-    flow/.style={
-        draw=bloqueborde,
-        -{Latex[length=2.5mm]},
-        line width=0.7pt
-    }
-]
+\hline
+\textbf{Año y lugar} & \textbf{Hitos principales} \\
+\hline
+\endhead
 
-\node[align=center, font=\bfseries\Large\sffamily] (title)
-{Cronograma de Bioinformática Estructural (2025--26)};
+\hline
+\endfoot
 
-\node[block, below=10mm of title] (b1) {%
-\textbf{\large Bloque I -- Modelado de proteínas}
+\hline
+\multicolumn{2}{r}{\textit{Continúa en la página siguiente}} \\
+\endfoot
 
-\vspace{1mm}
-\textbf{28/1} \quad CLASES SUSPENDIDAS POR RIESGO DE NIEVE
+\hline
+\endlastfoot
 
-\vspace{1mm}
-\textbf{4/2} \quad {\color{teoria}\faChalkboardTeacher\ }Presentación de la asignatura.\\
-\quad \quad \quad {\color{teoria}\faChalkboardTeacher\ }Estructura de proteínas\\ 
-\quad \quad \quad {\color{teoria}\faChalkboardTeacher\ }Comparación y clasificación de secuencias y estructuras.\\
-\quad \quad \quad {\color{practica}\faLaptop\ } Ejercicios en clase: estructura de proteínas.
+1998, París &
+\begin{itemize}
+\item \textbf{Declaración de la Sorbona.} Francia, Alemania, Italia y Reino Unido impulsan la armonización de la arquitectura del sistema europeo de educación superior.
+\item Se sientan las bases para la adopción de un sistema estructurado en ciclos y para el desarrollo posterior del EEES.
+\end{itemize}
+\\ \hline
 
-\vspace{1mm}
-\textbf{6/2} \quad {\color{practica}\faLaptop\ } Ejercicios en clase: bases de datos de proteínas.\\
-\quad \quad \quad {\color{teoria}\faChalkboardTeacher\ }Introducción a la biología estructural.\\
-\quad \quad \quad {\color{practica}\faLaptop\ } Inicio Práctica 1: generación de mapas de contacto.\\
-\quad \quad \quad {\color{teoria}\faChalkboardTeacher\ }Aplicaciones informáticas para trabajar con estructuras.\\
-\quad \quad \quad {\color{practica}\faLaptop\ } Tutorial autoguiado de PyMOL.
+1999, Bolonia &
+\begin{itemize}
+\item \textbf{Declaración de Bolonia.} 29 países europeos firman el acuerdo fundacional del Proceso de Bolonia.
+\item Se establecen los objetivos de crear el EEES antes de 2010, promover la movilidad, el reconocimiento de titulaciones y la comparabilidad de los sistemas.
+\end{itemize}
+\\ \hline
 
-\vspace{1mm}
-\textbf{11/2  }  {\color{practica}\faLaptop\ \textbf{}} Continuación del tutorial autoguiado de PyMOL.\\
-\quad \quad \quad{\color{teoria}\faChalkboardTeacher\ }Introducción al modelado de proteínas.
+2001, Praga &
+\begin{itemize}
+\item Los ministros de Educación revisan el proceso iniciado en Bolonia y fijan directrices y prioridades para los años siguientes, reafirmando el compromiso de constituir el EEES en 2010.
+\end{itemize}
+\\ \hline
 
-\vspace{1mm}
-\textbf{13/2 }  {\color{teoria}\faChalkboardTeacher\ } Modelado computacional de proteínas (II).\\
-\quad \quad \quad {\color{practica}\faLaptop\ \textbf{}} Ejercicios en clase: modelado con SWISS-MODEL.
+2003, Graz y Berlín &
+\begin{itemize}
+\item En la II Convención de Instituciones de Educación Superior y en la conferencia ministerial de Berlín se refuerza la dimensión institucional del proceso y su vinculación con el Espacio Europeo de Investigación.
+\item Se consolidan además diversas estructuras de seguimiento del proceso.
+\end{itemize}
+\\ \hline
 
-\vspace{1mm}
-\textbf{18/2 } {\color{teoria}\faChalkboardTeacher\ } Propiedades 1D de las proteínas.
+2005, Bergen &
+\begin{itemize}
+\item Se subraya la importancia de implicar activamente a estudiantes, instituciones de educación superior, profesorado y empleadores.
+\item Se presta especial atención al desarrollo de la investigación y de los programas de doctorado como tercer ciclo.
+\end{itemize}
+\\ \hline
 
-\vspace{1mm}
-\textbf{20/2 } {\color{teoria}\faChalkboardTeacher\ } Métodos avanzados de modelado de proteínas (I).\\
-\quad \quad \quad {\color{practica}\faLaptop\ \textbf{}} Inicio Práctica 2: UAM-CASP.
+2007, Londres &
+\begin{itemize}
+\item El proceso alcanza 46 países participantes.
+\item Se evalúan los progresos realizados en movilidad, estructura de titulaciones, reconocimiento, marcos de cualificaciones, aprendizaje a lo largo de la vida, aseguramiento de la calidad y dimensión social.
+\item Se fijan como prioridades futuras la movilidad, la dimensión social, la recogida de datos y la empleabilidad.
+\end{itemize}
+\\ \hline
 
-\vspace{1mm}
-\textbf{25/2 } {\color{teoria}\faChalkboardTeacher\ } Métodos avanzados de modelado de proteínas (II).
-};
+2009, Lovaina/ Louvain-la-Neuve &
+\begin{itemize}
+\item Se establecen las áreas principales de trabajo para la década siguiente.
+\item El proceso entra en una fase más centrada en la implantación efectiva de las reformas y en su profundización.
+\end{itemize}
+\\ \hline
 
-\node[note, right=4mm of b1.north east, anchor=north west] (n1) {%
-\textbf{Hitos de Bloque I}
+2010, Budapest y Viena &
+\begin{itemize}
+\item Se celebra la conferencia aniversario de los diez años del Proceso de Bolonia.
+\item Se produce el lanzamiento oficial del EEES.
+\end{itemize}
+\\ \hline
 
-\vspace{1mm}
-\faClipboardCheck\ \textbf{4/3} \quad Entrega inicial P1\\
-\faUsers\ \textbf{13/3} \quad Feedback de peer-review P1\\
-\faClipboardCheck\ \textbf{23/3} \quad Entrega inicial P2-CASP\\
-\faUsers\ \textbf{10/4} \quad Feedback de peer-review P2\\
-\faClipboardCheck\ \textbf{17/4} \quad Entrega final conjunta P1+P2
-};
+2012, Bucarest &
+\begin{itemize}
+\item El Comunicado de Bucarest se centra en consolidar el EEES en un contexto de crisis económica.
+\item Se fijan como prioridades la educación superior de calidad para todos, la mejora de la empleabilidad y la movilidad.
+\end{itemize}
+\\ \hline
 
-\node[block, below=8mm of b1] (b2) {%
-\textbf{\large Bloque II -- Docking}
+2015, Ereván &
+\begin{itemize}
+\item Se refuerza el seguimiento de los compromisos esenciales del proceso.
+\item Se aprueba la revisión de los ESG 2015.
+\end{itemize}
+\\ \hline
 
-\vspace{1mm}
-\textbf{4/3} \quad Seminario de investigador externo.\\
-\quad \quad \quad {\color{teoria}\faChalkboardTeacher\ }Docking molecular, conceptos básicos y aplicaciones.
+2018, París &
+\begin{itemize}
+\item Se insiste en la aplicación efectiva de los compromisos clave de Bolonia.
+\item Se subrayan valores fundamentales, inclusión, empleabilidad, movilidad y calidad.
+\end{itemize}
+\\ \hline
 
-\vspace{1mm}
-\textbf{6/3} \quad Seminario de investigador externo.\\
-\quad \quad \quad {\color{practica}\faLaptop\ \textbf{}} Taller práctico de docking.
+2020, Roma &
+\begin{itemize}
+\item Visión de un EEES más inclusivo, innovador e interconectado hacia 2030.
+\item Anexos sobre libertad académica, dimensión social y mejora del aprendizaje.
+\end{itemize}
+\\ \hline
 
-\vspace{1mm}
-\textbf{11/3 } Seminario de investigador externo.\\
-\quad \quad \quad {\color{practica}\faLaptop\ \textbf{}} Taller práctico de docking.\\
-\quad \quad \quad {\color{teoria}\faChalkboardTeacher\ }Recapitulación y ejemplos adicionales.
-};
+2024, Tirana &
+\begin{itemize}
+\item Evaluación de avances en el 25.º aniversario del Proceso de Bolonia.
+\item Reafirmación de pilares: tres ciclos, ECTS, reconocimiento y cultura de calidad.
+\end{itemize}
+\\ \hline
 
-\node[note, right=4mm of b2.north east, anchor=north west] (n2) {%
-\textbf{Hito de Bloque II}
-
-\vspace{1mm}
-\faClipboardCheck\ \textbf{7/4} \quad Entrega prácticas docking
-};
-
-\node[block, below=8mm of b2] (b3) {%
-\textbf{\large Sesión final de repaso}
-
-\vspace{1mm}
-\textbf{18/3} \quad Clase de recapitulación y apoyo en las prácticas.
-};
-
-\node[evalblock, below=8mm of b3] (b4) {%
-\textbf{\large Evaluación}
-
-\vspace{1mm}
-\textbf{25/3} \quad Examen teórico.\\
-\textbf{19/5} \quad Publicación de notas finales provisionales.
-};
-
-\draw[flow] (b1.south) -- (b2.north);
-\draw[flow] (b2.south) -- (b3.north);
-\draw[flow] (b3.south) -- (b4.north);
-
-\end{tikzpicture}
+\end{longtable}
 ```
-:::
