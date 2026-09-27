@@ -742,6 +742,37 @@
             "volume": "7"
         },
         {
+            "DOI": "10.1128/jmbe.00331-25",
+            "ISSN": "1935-7877",
+            "author": [
+                {
+                    "family": "Teufel",
+                    "given": "Ashley I."
+                },
+                {
+                    "family": "Liberles",
+                    "given": "David A."
+                }
+            ],
+            "container-title": "Journal of Microbiology & Biology Education",
+            "id": "teufel_teaching_2026",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2026,
+                        8
+                    ]
+                ]
+            },
+            "keyword": "AI, bioinformatics, computational biology, teaching",
+            "page": "e0033125",
+            "title": "Teaching bioinformatics with generative AI: Judgment, uncertainty, and responsibility",
+            "title-short": "Teaching bioinformatics with generative AI",
+            "type": "article-journal",
+            "volume": "27"
+        },
+        {
             "DOI": "10.1017/CBO9780511816833.020",
             "author": [
                 {

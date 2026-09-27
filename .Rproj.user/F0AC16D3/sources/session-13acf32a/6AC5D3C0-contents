@@ -1,0 +1,136 @@
+---
+format:
+  pdf:
+    title-page: false
+
+
+header-includes:
+  - \usepackage{longtable}
+  - \usepackage{multirow}
+  - \usepackage{array}
+  - \usepackage{booktabs}
+  - \usepackage[table]{xcolor}
+  - \usepackage{hyperref}
+  - \usepackage{fontawesome5}
+  - \usepackage{tikz}
+  - \usetikzlibrary{arrows.meta,positioning}
+---
+
+```{=latex}
+
+\begin{longtable}{p{3cm} p{11.5cm}} \caption[Principales hitos en el EEES]{Principales hitos en la instauración y desarrollo del Espacio Europeo de Educación Superior (EEES). Fuente: \protect\url{https://ehea.info/}.\label{tbl-EEES}}\\
+
+\rowcolors{2}{lightgray}{white}
+\toprule
+\textbf{Año y lugar} & \textbf{Hitos principales} \\
+\midrule
+\endfirsthead
+
+\hline
+\textbf{Año y lugar} & \textbf{Hitos principales} \\
+\hline
+\endhead
+
+\hline
+\endfoot
+
+\hline
+\multicolumn{2}{r}{\textit{Continúa en la página siguiente}} \\
+\endfoot
+
+\hline
+\endlastfoot
+
+1998, París &
+\begin{itemize}
+\item \textbf{Declaración de la Sorbona.} Francia, Alemania, Italia y Reino Unido impulsan la armonización de la arquitectura del sistema europeo de educación superior.
+\item Se sientan las bases para la adopción de un sistema estructurado en ciclos y para el desarrollo posterior del EEES.
+\end{itemize}
+\\ \hline
+
+1999, Bolonia &
+\begin{itemize}
+\item \textbf{Declaración de Bolonia.} 29 países europeos firman el acuerdo fundacional del Proceso de Bolonia.
+\item Se establecen los objetivos de crear el EEES antes de 2010, promover la movilidad, el reconocimiento de titulaciones y la comparabilidad de los sistemas.
+\end{itemize}
+\\ \hline
+
+2001, Praga &
+\begin{itemize}
+\item Los ministros de Educación revisan el proceso iniciado en Bolonia y fijan directrices y prioridades para los años siguientes, reafirmando el compromiso de constituir el EEES en 2010.
+\end{itemize}
+\\ \hline
+
+2003, Graz y Berlín &
+\begin{itemize}
+\item En la II Convención de Instituciones de Educación Superior y en la conferencia ministerial de Berlín se refuerza la dimensión institucional del proceso y su vinculación con el Espacio Europeo de Investigación.
+\item Se consolidan además diversas estructuras de seguimiento del proceso.
+\end{itemize}
+\\ \hline
+
+2005, Bergen &
+\begin{itemize}
+\item Se subraya la importancia de implicar activamente a estudiantes, instituciones de educación superior, profesorado y empleadores.
+\item Se presta especial atención al desarrollo de la investigación y de los programas de doctorado como tercer ciclo.
+\end{itemize}
+\\ \hline
+
+2007, Londres &
+\begin{itemize}
+\item El proceso alcanza 46 países participantes.
+\item Se evalúan los progresos realizados en movilidad, estructura de titulaciones, reconocimiento, marcos de cualificaciones, aprendizaje a lo largo de la vida, aseguramiento de la calidad y dimensión social.
+\item Se fijan como prioridades futuras la movilidad, la dimensión social, la recogida de datos y la empleabilidad.
+\end{itemize}
+\\ \hline
+
+2009, Lovaina/ Louvain-la-Neuve &
+\begin{itemize}
+\item Se establecen las áreas principales de trabajo para la década siguiente.
+\item El proceso entra en una fase más centrada en la implantación efectiva de las reformas y en su profundización.
+\end{itemize}
+\\ \hline
+
+2010, Budapest y Viena &
+\begin{itemize}
+\item Se celebra la conferencia aniversario de los diez años del Proceso de Bolonia.
+\item Se produce el lanzamiento oficial del EEES.
+\end{itemize}
+\\ \hline
+
+2012, Bucarest &
+\begin{itemize}
+\item El Comunicado de Bucarest se centra en consolidar el EEES en un contexto de crisis económica.
+\item Se fijan como prioridades la educación superior de calidad para todos, la mejora de la empleabilidad y la movilidad.
+\end{itemize}
+\\ \hline
+
+2015, Ereván &
+\begin{itemize}
+\item Se refuerza el seguimiento de los compromisos esenciales del proceso.
+\item Se aprueba la revisión de los ESG 2015.
+\end{itemize}
+\\ \hline
+
+2018, París &
+\begin{itemize}
+\item Se insiste en la aplicación efectiva de los compromisos clave de Bolonia.
+\item Se subrayan valores fundamentales, inclusión, empleabilidad, movilidad y calidad.
+\end{itemize}
+\\ \hline
+
+2020, Roma &
+\begin{itemize}
+\item Visión de un EEES más inclusivo, innovador e interconectado hacia 2030.
+\item Anexos sobre libertad académica, dimensión social y mejora del aprendizaje.
+\end{itemize}
+\\ \hline
+
+2024, Tirana &
+\begin{itemize}
+\item Evaluación de avances en el 25.º aniversario del Proceso de Bolonia.
+\item Reafirmación de pilares: tres ciclos, ECTS, reconocimiento y cultura de calidad.
+\end{itemize}
+\\ \hline
+
+\end{longtable}
+```
