@@ -1,5 +1,5 @@
 
-# Proyecto Docente Plaza UAM2026-XXXXTU 
+# Proyecto Docente Plaza UAM2026-1055TU 
 
 **English version below**
 
@@ -9,13 +9,13 @@ El documento ha sido elaborado mediante [Quarto](https://quarto.org/) y LaTeX. S
 
 ## Descripción
 
-El objetivo de este repositorio es facilitar el acceso abierto, transparente y reproducible al proyecto docente presentado en el contexto del proceso selectivo correspondiente a la plaza **UAM2026-XXXXTU**.
+El objetivo de este repositorio es facilitar el acceso abierto, transparente y reproducible al proyecto docente presentado en el contexto del proceso selectivo correspondiente a la plaza **UAM2026-1055TU**.
 
 La publicación de los archivos fuente tiene como finalidad facilitar la trazabilidad del documento, permitir su compilación independiente y favorecer buenas prácticas de documentación académica. El repositorio incluye los materiales necesarios para consultar, compilar y reutilizar, bajo los términos de la licencia indicada, el documento final del proyecto docente.
 
 ---
 
-# Teaching Statement for Position UAM2026-XXXXTU
+# Teaching Statement for Position UAM2026-1055TU
 
 This repository contains the teaching statement prepared for the position of **Associate Professor / Profesor Titular de Universidad** in the area of **Biochemistry and Molecular Biology** at the **Universidad Autónoma de Madrid**.
 
