@@ -23,6 +23,6 @@ The document has been prepared using [Quarto](https://quarto.org/) and LaTeX. Bo
 
 ## Description
 
-The aim of this repository is to provide open, transparent and reproducible access to the teaching statement submitted as part of the selection process for position **UAM2026-XXXXTU**.
+The aim of this repository is to provide open, transparent and reproducible access to the teaching statement submitted as part of the selection process for position **UAM2026-1055TU**.
 
 The source files are shared to ensure transparency, traceability and independent compilation of the document, following good practices in academic documentation. The repository includes the necessary materials to consult, compile and reuse, under the terms of the indicated license, the final version of the teaching statement.
