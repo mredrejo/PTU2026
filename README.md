@@ -1,8 +1,10 @@
-[![DOI](https://zenodo.org/badge/1258437819.svg)](https://doi.org/10.5281/zenodo.24319733)
-
 # Proyecto Docente Plaza UAM2026-1055TU 
+### REPO DOI: [![DOI](https://zenodo.org/badge/1258437819.svg)](https://doi.org/10.5281/zenodo.24319733)
 
-**English version below**
+### FINAL BOOK DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24336790.svg)](https://doi.org/10.5281/zenodo.24336790)
+
+
+**(English version below)**
 
 Este repositorio contiene el proyecto docente elaborado para la plaza de **Profesor Titular de Universidad** del área de conocimiento **Bioquímica y Biología Molecular** en la **Universidad Autónoma de Madrid**.
 
